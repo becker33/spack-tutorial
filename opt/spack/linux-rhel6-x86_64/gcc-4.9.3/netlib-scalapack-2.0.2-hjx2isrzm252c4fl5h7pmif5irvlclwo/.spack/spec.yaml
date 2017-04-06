@@ -1,0 +1,75 @@
+spec:
+- netlib-scalapack:
+    version: 2.0.2
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      fpic: false
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+      mpich:
+        hash: fgoqnw3taunnwuhrfmhbf7afbxhavqpf
+        type:
+        - build
+        - link
+      openblas:
+        hash: mjzp222db3otl2qnh6ptm6z2u5gol6jl
+        type:
+        - build
+        - link
+    hash: hjx2isrzm252c4fl5h7pmif5irvlclwo
+- mpich:
+    version: '3.2'
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      hydra: true
+      pmi: true
+      romio: true
+      verbs: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: fgoqnw3taunnwuhrfmhbf7afbxhavqpf
+- openblas:
+    version: 0.2.19
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      openmp: false
+      pic: true
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: mjzp222db3otl2qnh6ptm6z2u5gol6jl

@@ -1,0 +1,98 @@
+spec:
+- cmake:
+    version: 3.7.2
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      doc: false
+      ncurses: true
+      openssl: true
+      ownlibs: true
+      qt: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+      ncurses:
+        hash: erubsle2jt7czul3oljyqkciuhkvxosm
+        type:
+        - build
+        - link
+      openssl:
+        hash: no37mpayjgsejfwzxrp3io4ncmht4ogt
+        type:
+        - build
+        - link
+    hash: 7c73brgcky32zmdqnnjzlk4ap5l6e774
+- ncurses:
+    version: '6.0'
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      symlinks: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: erubsle2jt7czul3oljyqkciuhkvxosm
+- openssl:
+    version: 1.0.2k
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+      zlib:
+        hash: acr66adnfuvtuj4iheoc7yvvkdbtrupf
+        type:
+        - build
+        - link
+    hash: no37mpayjgsejfwzxrp3io4ncmht4ogt
+- zlib:
+    version: 1.2.11
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      pic: true
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: acr66adnfuvtuj4iheoc7yvvkdbtrupf

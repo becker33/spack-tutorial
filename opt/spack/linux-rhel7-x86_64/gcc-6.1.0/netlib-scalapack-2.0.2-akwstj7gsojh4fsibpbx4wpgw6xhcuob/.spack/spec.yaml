@@ -1,0 +1,76 @@
+spec:
+- netlib-scalapack:
+    version: 2.0.2
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 6.1.0
+    namespace: builtin
+    parameters:
+      fpic: false
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+      mpich:
+        hash: 7nuwk726bah3xqaanuzoqhwdzqekrdhn
+        type:
+        - build
+        - link
+      netlib-lapack:
+        hash: 34x5h4zmopzqg2sl4hv37qkmhsy5gnq6
+        type:
+        - build
+        - link
+    hash: akwstj7gsojh4fsibpbx4wpgw6xhcuob
+- mpich:
+    version: '3.2'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 6.1.0
+    namespace: builtin
+    parameters:
+      hydra: true
+      pmi: true
+      romio: true
+      verbs: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: 7nuwk726bah3xqaanuzoqhwdzqekrdhn
+- netlib-lapack:
+    version: 3.6.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 6.1.0
+    namespace: builtin
+    parameters:
+      debug: false
+      external-blas: false
+      lapacke: true
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: 34x5h4zmopzqg2sl4hv37qkmhsy5gnq6

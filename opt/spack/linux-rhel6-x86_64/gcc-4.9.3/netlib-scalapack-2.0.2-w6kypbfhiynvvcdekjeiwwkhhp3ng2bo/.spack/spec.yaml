@@ -1,0 +1,206 @@
+spec:
+- netlib-scalapack:
+    version: 2.0.2
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      fpic: false
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+      openblas:
+        hash: mjzp222db3otl2qnh6ptm6z2u5gol6jl
+        type:
+        - build
+        - link
+      openmpi:
+        hash: emh5ip2hrlixu5pss32qnteub7cm2n3e
+        type:
+        - build
+        - link
+    hash: w6kypbfhiynvvcdekjeiwwkhhp3ng2bo
+- openblas:
+    version: 0.2.19
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      openmp: false
+      pic: true
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: mjzp222db3otl2qnh6ptm6z2u5gol6jl
+- openmpi:
+    version: 2.1.0
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      java: false
+      mxm: false
+      pmi: false
+      psm: false
+      psm2: false
+      slurm: false
+      sqlite3: false
+      thread_multiple: false
+      tm: false
+      verbs: true
+      vt: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+      hwloc:
+        hash: wutwmztcgexwburu4cdp6irhmruaoxit
+        type:
+        - build
+        - link
+    hash: emh5ip2hrlixu5pss32qnteub7cm2n3e
+- hwloc:
+    version: 1.11.6
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      cuda: false
+      libxml2: true
+      pci: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+      libpciaccess:
+        hash: 4ap5tejljuw6la6hxpelbh7dcshddrwp
+        type:
+        - build
+        - link
+      libxml2:
+        hash: v7v4bueia4anlvo5phsjgc45cru3w2f2
+        type:
+        - build
+        - link
+    hash: wutwmztcgexwburu4cdp6irhmruaoxit
+- libpciaccess:
+    version: 0.13.4
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: 4ap5tejljuw6la6hxpelbh7dcshddrwp
+- libxml2:
+    version: 2.9.4
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      python: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+      xz:
+        hash: fwp3cwusylim2ax6t4c4hrd5nt6zsf6i
+        type:
+        - build
+        - link
+      zlib:
+        hash: acr66adnfuvtuj4iheoc7yvvkdbtrupf
+        type:
+        - build
+        - link
+    hash: v7v4bueia4anlvo5phsjgc45cru3w2f2
+- xz:
+    version: 5.2.3
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: fwp3cwusylim2ax6t4c4hrd5nt6zsf6i
+- zlib:
+    version: 1.2.11
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      pic: true
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: acr66adnfuvtuj4iheoc7yvvkdbtrupf

@@ -1,0 +1,98 @@
+spec:
+- cmake:
+    version: 3.7.2
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 6.1.0
+    namespace: builtin
+    parameters:
+      doc: false
+      ncurses: true
+      openssl: true
+      ownlibs: true
+      qt: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+      ncurses:
+        hash: 4rlfkv4hf47us2ebegonrnjimh7xtznx
+        type:
+        - build
+        - link
+      openssl:
+        hash: a667kqeljuc3kyt3624y6us7fbetsaev
+        type:
+        - build
+        - link
+    hash: dbcsy2eta7nuwil7sw4oa3zdw5esugln
+- ncurses:
+    version: '6.0'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 6.1.0
+    namespace: builtin
+    parameters:
+      symlinks: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: 4rlfkv4hf47us2ebegonrnjimh7xtznx
+- openssl:
+    version: 1.0.2k
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 6.1.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+      zlib:
+        hash: r6cf4ev65fnjeodxgffdsip6tokpqkqp
+        type:
+        - build
+        - link
+    hash: a667kqeljuc3kyt3624y6us7fbetsaev
+- zlib:
+    version: 1.2.11
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 6.1.0
+    namespace: builtin
+    parameters:
+      pic: true
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: r6cf4ev65fnjeodxgffdsip6tokpqkqp

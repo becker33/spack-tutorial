@@ -1,0 +1,23 @@
+spec:
+- mpich:
+    version: '3.2'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 6.1.0
+    namespace: builtin
+    parameters:
+      hydra: true
+      pmi: true
+      romio: true
+      verbs: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: 7nuwk726bah3xqaanuzoqhwdzqekrdhn

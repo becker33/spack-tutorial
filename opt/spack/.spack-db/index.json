@@ -1,0 +1,5396 @@
+{
+ "database": {
+  "installs": {
+   "7nuwk726bah3xqaanuzoqhwdzqekrdhn": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/mpich-3.2-7nuwk726bah3xqaanuzoqhwdzqekrdhn",
+    "explicit": false,
+    "spec": {
+     "mpich": {
+      "version": "3.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "hydra": true,
+       "pmi": true,
+       "romio": true,
+       "verbs": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "l2z4rhpzztvkshzqv7ntc6bfhgoexo6x": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/sqlite-3.8.5-l2z4rhpzztvkshzqv7ntc6bfhgoexo6x",
+    "explicit": false,
+    "spec": {
+     "sqlite": {
+      "version": "3.8.5",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "dmbgtkxie62khpposmbg7mx37ojux6im": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/pkg-config-0.29.2-dmbgtkxie62khpposmbg7mx37ojux6im",
+    "explicit": false,
+    "spec": {
+     "pkg-config": {
+      "version": "0.29.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "internal_glib": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "7c73brgcky32zmdqnnjzlk4ap5l6e774": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/cmake-3.7.2-7c73brgcky32zmdqnnjzlk4ap5l6e774",
+    "explicit": false,
+    "spec": {
+     "cmake": {
+      "version": "3.7.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "doc": false,
+       "ncurses": true,
+       "openssl": true,
+       "ownlibs": true,
+       "qt": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "ncurses": {
+        "hash": "erubsle2jt7czul3oljyqkciuhkvxosm",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "openssl": {
+        "hash": "no37mpayjgsejfwzxrp3io4ncmht4ogt",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "wj6tyzua6emvzye7pxl2gfr7j4hs5fdv": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/mawk-1.3.4-wj6tyzua6emvzye7pxl2gfr7j4hs5fdv",
+    "explicit": false,
+    "spec": {
+     "mawk": {
+      "version": "1.3.4",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "phopsy7n4tctwvyqqbrwdpus2cgqq35d": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/help2man-1.47.4-phopsy7n4tctwvyqqbrwdpus2cgqq35d",
+    "explicit": false,
+    "spec": {
+     "help2man": {
+      "version": "1.47.4",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "r6cf4ev65fnjeodxgffdsip6tokpqkqp": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/zlib-1.2.11-r6cf4ev65fnjeodxgffdsip6tokpqkqp",
+    "explicit": false,
+    "spec": {
+     "zlib": {
+      "version": "1.2.11",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "pic": true,
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 3,
+    "installed": true
+   },
+   "ovuu7curwnaicby3lgtvruypuaiwagrf": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/pkg-config-0.29.2-ovuu7curwnaicby3lgtvruypuaiwagrf",
+    "explicit": false,
+    "spec": {
+     "pkg-config": {
+      "version": "0.29.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "internal_glib": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "fwp3cwusylim2ax6t4c4hrd5nt6zsf6i": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/xz-5.2.3-fwp3cwusylim2ax6t4c4hrd5nt6zsf6i",
+    "explicit": false,
+    "spec": {
+     "xz": {
+      "version": "5.2.3",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "zzdh3dnkkujofluhrg3dgrvll4nwoqrq": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/libtool-2.4.6-zzdh3dnkkujofluhrg3dgrvll4nwoqrq",
+    "explicit": false,
+    "spec": {
+     "libtool": {
+      "version": "2.4.6",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "sqseh3rofevqjbrm3rbi6affqaebbhhw": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/libtool-2.4.6-sqseh3rofevqjbrm3rbi6affqaebbhhw",
+    "explicit": false,
+    "spec": {
+     "libtool": {
+      "version": "2.4.6",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "fgkq2iksdz2yoy7a757rtyytoyr3ujrb": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/mpfr-3.1.5-fgkq2iksdz2yoy7a757rtyytoyr3ujrb",
+    "explicit": false,
+    "spec": {
+     "mpfr": {
+      "version": "3.1.5",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "gmp": {
+        "hash": "5odxtlxihbfjtj4dxo52oz5f7r6ir6jk",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "fexi2dg27xen76qi3hs4afupczg2iou2": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/netlib-scalapack-2.0.2-fexi2dg27xen76qi3hs4afupczg2iou2",
+    "explicit": true,
+    "spec": {
+     "netlib-scalapack": {
+      "version": "2.0.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "fpic": false,
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "openblas": {
+        "hash": "qb6pifdqt3br3cdevers6whdxixh33ia",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "openmpi": {
+        "hash": "iaoqy4tyrra4dc6lzf3itxaplevfnuux",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "4ap5tejljuw6la6hxpelbh7dcshddrwp": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/libpciaccess-0.13.4-4ap5tejljuw6la6hxpelbh7dcshddrwp",
+    "explicit": false,
+    "spec": {
+     "libpciaccess": {
+      "version": "0.13.4",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "hwegkxiufcw6f67bdenn2gostxcztban": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/m4-1.4.18-hwegkxiufcw6f67bdenn2gostxcztban",
+    "explicit": false,
+    "spec": {
+     "m4": {
+      "version": "1.4.18",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "sigsegv": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "libsigsegv": {
+        "hash": "lnpesbuzxfafdx552hok4ipvyofrp2dz",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "fsm3at22csm3hf2pomwgjccbua4rche2": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/bison-3.0.4-fsm3at22csm3hf2pomwgjccbua4rche2",
+    "explicit": false,
+    "spec": {
+     "bison": {
+      "version": "3.0.4",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "m4": {
+        "hash": "i6hofbwiqvetmxtsqm67mvp55s2pt3zu",
+        "type": [
+         "build",
+         "run"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "6cj4qkkf4qev4wpv3qg4fwmmnmfsgtpc": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/sqlite-3.8.5-6cj4qkkf4qev4wpv3qg4fwmmnmfsgtpc",
+    "explicit": false,
+    "spec": {
+     "sqlite": {
+      "version": "3.8.5",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "jphwe3243ib2y3547flususgfqrx2eyt": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-scipy-0.19.0-jphwe3243ib2y3547flususgfqrx2eyt",
+    "explicit": true,
+    "spec": {
+     "py-scipy": {
+      "version": "0.19.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "openblas": {
+        "hash": "mjzp222db3otl2qnh6ptm6z2u5gol6jl",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "py-numpy": {
+        "hash": "b4bibci4p7vdvwunnvxcpqg6gi7pbtq4",
+        "type": [
+         "build",
+         "run"
+        ]
+       },
+       "python": {
+        "hash": "qx6wknxwlziqf6o62bgwud3jr43b5vcm",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "rmllou5tjswej5z24ngdpeaf5civ44qh": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/netlib-scalapack-2.0.2-rmllou5tjswej5z24ngdpeaf5civ44qh",
+    "explicit": true,
+    "spec": {
+     "netlib-scalapack": {
+      "version": "2.0.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "fpic": false,
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "mpich": {
+        "hash": "fgoqnw3taunnwuhrfmhbf7afbxhavqpf",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "netlib-lapack": {
+        "hash": "v6oiwicfe7jxgxlvmbxlnobyb52c5bww",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "hjx2isrzm252c4fl5h7pmif5irvlclwo": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/netlib-scalapack-2.0.2-hjx2isrzm252c4fl5h7pmif5irvlclwo",
+    "explicit": true,
+    "spec": {
+     "netlib-scalapack": {
+      "version": "2.0.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "fpic": false,
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "mpich": {
+        "hash": "fgoqnw3taunnwuhrfmhbf7afbxhavqpf",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "openblas": {
+        "hash": "mjzp222db3otl2qnh6ptm6z2u5gol6jl",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "njwfqrmx75rvlftimqzx7bsgcqpmaj2a": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/libdwarf-20160507-njwfqrmx75rvlftimqzx7bsgcqpmaj2a",
+    "explicit": false,
+    "spec": {
+     "libdwarf": {
+      "version": "20160507",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "elfutils": {
+        "hash": "gcsyryoutwmy22qzazcz6otmlvqyuzzg",
+        "type": [
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "i6hofbwiqvetmxtsqm67mvp55s2pt3zu": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/m4-1.4.18-i6hofbwiqvetmxtsqm67mvp55s2pt3zu",
+    "explicit": false,
+    "spec": {
+     "m4": {
+      "version": "1.4.18",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "sigsegv": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "libsigsegv": {
+        "hash": "3byxblkv2nvzumj3wk5cbzyud5hpjdlv",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "qqtt2etcxz7gkykoxl5pn46647wt4lxd": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/mpfr-3.1.5-qqtt2etcxz7gkykoxl5pn46647wt4lxd",
+    "explicit": false,
+    "spec": {
+     "mpfr": {
+      "version": "3.1.5",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "gmp": {
+        "hash": "qbnerqzrxquvqznvsx6dpj6nwzc5q5mc",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "jepdtr53ldnip7q7rz5r7mkig5hho4t6": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/libpciaccess-0.13.4-jepdtr53ldnip7q7rz5r7mkig5hho4t6",
+    "explicit": false,
+    "spec": {
+     "libpciaccess": {
+      "version": "0.13.4",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "a667kqeljuc3kyt3624y6us7fbetsaev": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/openssl-1.0.2k-a667kqeljuc3kyt3624y6us7fbetsaev",
+    "explicit": false,
+    "spec": {
+     "openssl": {
+      "version": "1.0.2k",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "zlib": {
+        "hash": "r6cf4ev65fnjeodxgffdsip6tokpqkqp",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "6eo6qjulrfkpit5nb6ejsjhbhufqzq2x": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-appdirs-1.4.0-6eo6qjulrfkpit5nb6ejsjhbhufqzq2x",
+    "explicit": false,
+    "spec": {
+     "py-appdirs": {
+      "version": "1.4.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "python": {
+        "hash": "qx6wknxwlziqf6o62bgwud3jr43b5vcm",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "t4qaymzxzocv3pxas5vpmaxozlvwwrgg": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/boost-1.63.0-t4qaymzxzocv3pxas5vpmaxozlvwwrgg",
+    "explicit": false,
+    "spec": {
+     "boost": {
+      "version": "1.63.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "atomic": true,
+       "chrono": true,
+       "date_time": true,
+       "debug": false,
+       "filesystem": true,
+       "graph": false,
+       "icu": false,
+       "iostreams": true,
+       "locale": true,
+       "log": true,
+       "math": true,
+       "mpi": false,
+       "multithreaded": true,
+       "program_options": true,
+       "python": false,
+       "random": true,
+       "regex": true,
+       "serialization": true,
+       "shared": true,
+       "signals": true,
+       "singlethreaded": false,
+       "system": true,
+       "taggedlayout": false,
+       "test": true,
+       "thread": true,
+       "timer": true,
+       "wave": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "bzip2": {
+        "hash": "r7iwetal7eikfzavw6s6wh427gk2gtqk",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "zlib": {
+        "hash": "fx6sympo3dzxacsyphhu4gykonnbdw32",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "ocrg3acoryytnjdhyuneog2x4a3st67j": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-pyparsing-2.1.10-ocrg3acoryytnjdhyuneog2x4a3st67j",
+    "explicit": false,
+    "spec": {
+     "py-pyparsing": {
+      "version": "2.1.10",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "python": {
+        "hash": "qx6wknxwlziqf6o62bgwud3jr43b5vcm",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "r7iwetal7eikfzavw6s6wh427gk2gtqk": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/bzip2-1.0.6-r7iwetal7eikfzavw6s6wh427gk2gtqk",
+    "explicit": false,
+    "spec": {
+     "bzip2": {
+      "version": "1.0.6",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "3byxblkv2nvzumj3wk5cbzyud5hpjdlv": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/libsigsegv-2.11-3byxblkv2nvzumj3wk5cbzyud5hpjdlv",
+    "explicit": false,
+    "spec": {
+     "libsigsegv": {
+      "version": "2.11",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "slpem3gpbi7njm3kel7zce4i3gsvnuyl": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/m4-1.4.18-slpem3gpbi7njm3kel7zce4i3gsvnuyl",
+    "explicit": false,
+    "spec": {
+     "m4": {
+      "version": "1.4.18",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "sigsegv": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "libsigsegv": {
+        "hash": "yyfotf4p6cg34qnkhfsbv2zk2j76zjqj",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "wxwzs5snbltl5ynbhjxr5k6kv2irb6zl": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/py-scipy-0.19.0-wxwzs5snbltl5ynbhjxr5k6kv2irb6zl",
+    "explicit": true,
+    "spec": {
+     "py-scipy": {
+      "version": "0.19.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "openblas": {
+        "hash": "qb6pifdqt3br3cdevers6whdxixh33ia",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "py-numpy": {
+        "hash": "conz6wz5ngt5a62yhoxa6xq3zhxo4hon",
+        "type": [
+         "build",
+         "run"
+        ]
+       },
+       "python": {
+        "hash": "eapn674tssm7xxq6xiliw5lxt7mm362n",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "kpy7dvhd2zeduhqcwocqoa6bzgdvrmpp": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/perl-5.24.1-kpy7dvhd2zeduhqcwocqoa6bzgdvrmpp",
+    "explicit": false,
+    "spec": {
+     "perl": {
+      "version": "5.24.1",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cpanm": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "msje2yczxov5uvzlc5qk4phqmyeklg65": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/util-macros-1.19.1-msje2yczxov5uvzlc5qk4phqmyeklg65",
+    "explicit": false,
+    "spec": {
+     "util-macros": {
+      "version": "1.19.1",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "ei2ojodg7vvjtil2mn6hxxuwqonyinwm": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/netlib-scalapack-2.0.2-ei2ojodg7vvjtil2mn6hxxuwqonyinwm",
+    "explicit": true,
+    "spec": {
+     "netlib-scalapack": {
+      "version": "2.0.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "fpic": false,
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "netlib-lapack": {
+        "hash": "34x5h4zmopzqg2sl4hv37qkmhsy5gnq6",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "openmpi": {
+        "hash": "iaoqy4tyrra4dc6lzf3itxaplevfnuux",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "dkryhqhibrgsnjriq2pmkfsscncmkdvh": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/dyninst-9.3.0-dkryhqhibrgsnjriq2pmkfsscncmkdvh",
+    "explicit": false,
+    "spec": {
+     "dyninst": {
+      "version": "9.3.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "stat_dysect": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "boost": {
+        "hash": "t4qaymzxzocv3pxas5vpmaxozlvwwrgg",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "elfutils": {
+        "hash": "gcsyryoutwmy22qzazcz6otmlvqyuzzg",
+        "type": [
+         "link"
+        ]
+       },
+       "libdwarf": {
+        "hash": "njwfqrmx75rvlftimqzx7bsgcqpmaj2a",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "gcsyryoutwmy22qzazcz6otmlvqyuzzg": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/elfutils-0.163-gcsyryoutwmy22qzazcz6otmlvqyuzzg",
+    "explicit": false,
+    "spec": {
+     "elfutils": {
+      "version": "0.163",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 3,
+    "installed": true
+   },
+   "vye3wye4rmb45n2sd2tsvjdsjlsw2jgt": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/binutils-2.28-vye3wye4rmb45n2sd2tsvjdsjlsw2jgt",
+    "explicit": false,
+    "spec": {
+     "binutils": {
+      "version": "2.28",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "gold": true,
+       "krellpatch": false,
+       "libiberty": false,
+       "plugins": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "gettext": {
+        "hash": "meti2rz4df6sr5auemuiexlq5enrmw3y",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "urkyxmgfmnbqsvobqutwamtu76bbowr2": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/callpath-1.0.2-urkyxmgfmnbqsvobqutwamtu76bbowr2",
+    "explicit": false,
+    "spec": {
+     "callpath": {
+      "version": "1.0.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "adept-utils": {
+        "hash": "slhvq4ah2a6bmas7qg23uy43efle7bzr",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "dyninst": {
+        "hash": "dkryhqhibrgsnjriq2pmkfsscncmkdvh",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "elfutils": {
+        "hash": "gcsyryoutwmy22qzazcz6otmlvqyuzzg",
+        "type": [
+         "link"
+        ]
+       },
+       "libdwarf": {
+        "hash": "njwfqrmx75rvlftimqzx7bsgcqpmaj2a",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "openmpi": {
+        "hash": "e5dbkxvi5kjkx3j7fxjvg44dutsllmhc",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "meti2rz4df6sr5auemuiexlq5enrmw3y": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gettext-0.19.8.1-meti2rz4df6sr5auemuiexlq5enrmw3y",
+    "explicit": false,
+    "spec": {
+     "gettext": {
+      "version": "0.19.8.1",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "bzip2": true,
+       "curses": true,
+       "git": true,
+       "libunistring": false,
+       "libxml2": true,
+       "tar": true,
+       "xz": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "bzip2": {
+        "hash": "qrd3gzlkqpof6jthkmt2vejxvmbd3x3s",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "libxml2": {
+        "hash": "hvr44mn3lfne4352n42yem7vlepbf4bu",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "ncurses": {
+        "hash": "5qpuxd53h5j27xkcp7rhlqzvw64g7jcq",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "tar": {
+        "hash": "52bk5rttkzszway7mvcijjqilkcyfp7t",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "xz": {
+        "hash": "yxhjznhbx2nud4c5pxnsh4wsvwyzfd7v",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "b4bibci4p7vdvwunnvxcpqg6gi7pbtq4": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-numpy-1.12.0-b4bibci4p7vdvwunnvxcpqg6gi7pbtq4",
+    "explicit": false,
+    "spec": {
+     "py-numpy": {
+      "version": "1.12.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "blas": true,
+       "lapack": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "openblas": {
+        "hash": "mjzp222db3otl2qnh6ptm6z2u5gol6jl",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "python": {
+        "hash": "qx6wknxwlziqf6o62bgwud3jr43b5vcm",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "am67diqbhd73wcs6fto33z42ypjoicss": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/netlib-scalapack-2.0.2-am67diqbhd73wcs6fto33z42ypjoicss",
+    "explicit": true,
+    "spec": {
+     "netlib-scalapack": {
+      "version": "2.0.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "fpic": false,
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "mpich": {
+        "hash": "7nuwk726bah3xqaanuzoqhwdzqekrdhn",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "openblas": {
+        "hash": "qb6pifdqt3br3cdevers6whdxixh33ia",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "76ezfp2josf7w53o7mjzrbekcba5jn6t": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/libpciaccess-0.13.4-76ezfp2josf7w53o7mjzrbekcba5jn6t",
+    "explicit": false,
+    "spec": {
+     "libpciaccess": {
+      "version": "0.13.4",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "b5x7m4t4p5sn4cppr76ypfv2etf73n4f": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/hwloc-1.11.6-b5x7m4t4p5sn4cppr76ypfv2etf73n4f",
+    "explicit": false,
+    "spec": {
+     "hwloc": {
+      "version": "1.11.6",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cuda": false,
+       "libxml2": true,
+       "pci": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "libpciaccess": {
+        "hash": "c6y35no4bqsxdoxrmhjbgifj44kcfz7a",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "libxml2": {
+        "hash": "e7ep5zfxtfxfjuxoa2x4fm5bnnrr6ltj",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "wdalb5aphlmwggdsdcwkphmqmb6abuwk": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/pkg-config-0.29.2-wdalb5aphlmwggdsdcwkphmqmb6abuwk",
+    "explicit": false,
+    "spec": {
+     "pkg-config": {
+      "version": "0.29.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "internal_glib": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "34x5h4zmopzqg2sl4hv37qkmhsy5gnq6": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/netlib-lapack-3.6.1-34x5h4zmopzqg2sl4hv37qkmhsy5gnq6",
+    "explicit": false,
+    "spec": {
+     "netlib-lapack": {
+      "version": "3.6.1",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "debug": false,
+       "external-blas": false,
+       "lapacke": true,
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "xqiyghtlms7lwgexu3wh7zdtbw6lnytl": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/libsigsegv-2.11-xqiyghtlms7lwgexu3wh7zdtbw6lnytl",
+    "explicit": false,
+    "spec": {
+     "libsigsegv": {
+      "version": "2.11",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "qb6pifdqt3br3cdevers6whdxixh33ia": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/openblas-0.2.19-qb6pifdqt3br3cdevers6whdxixh33ia",
+    "explicit": false,
+    "spec": {
+     "openblas": {
+      "version": "0.2.19",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "openmp": false,
+       "pic": true,
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 4,
+    "installed": true
+   },
+   "etvtnr4htcintgnpezr22uc37nro2zyw": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/bzip2-1.0.6-etvtnr4htcintgnpezr22uc37nro2zyw",
+    "explicit": false,
+    "spec": {
+     "bzip2": {
+      "version": "1.0.6",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "jrwlm4pzhjjjzxyfe4vga2weh7pmwhoq": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/help2man-1.47.4-jrwlm4pzhjjjzxyfe4vga2weh7pmwhoq",
+    "explicit": false,
+    "spec": {
+     "help2man": {
+      "version": "1.47.4",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "mihjbizifyt64be24smz3dsvffntcu6v": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/py-packaging-16.8-mihjbizifyt64be24smz3dsvffntcu6v",
+    "explicit": false,
+    "spec": {
+     "py-packaging": {
+      "version": "16.8",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "py-pyparsing": {
+        "hash": "m6dk46bcsfhfp35xcsmyxl6no2ynvmc5",
+        "type": [
+         "run"
+        ]
+       },
+       "py-six": {
+        "hash": "phvu2fwx6bay6uwlfdb2ehzq77rrdcii",
+        "type": [
+         "run"
+        ]
+       },
+       "python": {
+        "hash": "eapn674tssm7xxq6xiliw5lxt7mm362n",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "yrlwpntmaipq74ot27tq3ixfswm4qout": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/openssl-1.0.2k-yrlwpntmaipq74ot27tq3ixfswm4qout",
+    "explicit": false,
+    "spec": {
+     "openssl": {
+      "version": "1.0.2k",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "zlib": {
+        "hash": "hpdicdxfq5jn2ycttiuiu42hemg444nf",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "m7ksly5mkwjrheecp5qxpm4npjdt2pkq": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/mawk-1.3.4-m7ksly5mkwjrheecp5qxpm4npjdt2pkq",
+    "explicit": false,
+    "spec": {
+     "mawk": {
+      "version": "1.3.4",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "i2waegfqzcvorbvi53kkeg6r7tu5p7jb": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/util-macros-1.19.1-i2waegfqzcvorbvi53kkeg6r7tu5p7jb",
+    "explicit": false,
+    "spec": {
+     "util-macros": {
+      "version": "1.19.1",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "emh5ip2hrlixu5pss32qnteub7cm2n3e": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/openmpi-2.1.0-emh5ip2hrlixu5pss32qnteub7cm2n3e",
+    "explicit": false,
+    "spec": {
+     "openmpi": {
+      "version": "2.1.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "java": false,
+       "mxm": false,
+       "pmi": false,
+       "psm": false,
+       "psm2": false,
+       "slurm": false,
+       "sqlite3": false,
+       "thread_multiple": false,
+       "tm": false,
+       "verbs": true,
+       "vt": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "hwloc": {
+        "hash": "wutwmztcgexwburu4cdp6irhmruaoxit",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "5tvxpzl4tmmqxrstzuo32jcuh2shdrjr": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/binutils-2.28-5tvxpzl4tmmqxrstzuo32jcuh2shdrjr",
+    "explicit": false,
+    "spec": {
+     "binutils": {
+      "version": "2.28",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "gold": true,
+       "krellpatch": false,
+       "libiberty": false,
+       "plugins": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "gettext": {
+        "hash": "eokw4qygxftir3sjektxwnw6xb2vjw7t",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "mdplmger4yc7c66mjkudfnnbmmwbx7o7": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/perl-5.24.1-mdplmger4yc7c66mjkudfnnbmmwbx7o7",
+    "explicit": false,
+    "spec": {
+     "perl": {
+      "version": "5.24.1",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cpanm": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "tosdripy6ozmxm5bfw7nc3ca2lod7ifk": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/adept-utils-1.0.1-tosdripy6ozmxm5bfw7nc3ca2lod7ifk",
+    "explicit": false,
+    "spec": {
+     "adept-utils": {
+      "version": "1.0.1",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "boost": {
+        "hash": "u77poae23raxnqbiguwhwt5adc7dfzg5",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "openmpi": {
+        "hash": "hb4uwvfvxuwt42cmdlwvjmj7lxqhg4eg",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "nr53at45pjmvufnngxhsrorfgmoucttd": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/mpc-1.0.3-nr53at45pjmvufnngxhsrorfgmoucttd",
+    "explicit": false,
+    "spec": {
+     "mpc": {
+      "version": "1.0.3",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "gmp": {
+        "hash": "qbnerqzrxquvqznvsx6dpj6nwzc5q5mc",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "mpfr": {
+        "hash": "qqtt2etcxz7gkykoxl5pn46647wt4lxd",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "qrd3gzlkqpof6jthkmt2vejxvmbd3x3s": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/bzip2-1.0.6-qrd3gzlkqpof6jthkmt2vejxvmbd3x3s",
+    "explicit": false,
+    "spec": {
+     "bzip2": {
+      "version": "1.0.6",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "766n4q3c5diqrjiavm6kgrdrkyivacny": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/isl-0.18-766n4q3c5diqrjiavm6kgrdrkyivacny",
+    "explicit": false,
+    "spec": {
+     "isl": {
+      "version": "0.18",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "gmp": {
+        "hash": "qbnerqzrxquvqznvsx6dpj6nwzc5q5mc",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "gxixxdk64o3jsfci6ylmbhrkbuaf3iwa": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/cmake-3.7.2-gxixxdk64o3jsfci6ylmbhrkbuaf3iwa",
+    "explicit": false,
+    "spec": {
+     "cmake": {
+      "version": "3.7.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "doc": false,
+       "ncurses": true,
+       "openssl": true,
+       "ownlibs": true,
+       "qt": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "ncurses": {
+        "hash": "5qpuxd53h5j27xkcp7rhlqzvw64g7jcq",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "openssl": {
+        "hash": "yrlwpntmaipq74ot27tq3ixfswm4qout",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "qswask5jhjzpu73id2rfzcmcsa5i2iew": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/util-macros-1.19.1-qswask5jhjzpu73id2rfzcmcsa5i2iew",
+    "explicit": false,
+    "spec": {
+     "util-macros": {
+      "version": "1.19.1",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "hnkxexo3srgcj7kv3ytndm35s63z3x7e": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/libtool-2.4.6-hnkxexo3srgcj7kv3ytndm35s63z3x7e",
+    "explicit": false,
+    "spec": {
+     "libtool": {
+      "version": "2.4.6",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "conz6wz5ngt5a62yhoxa6xq3zhxo4hon": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/py-numpy-1.12.0-conz6wz5ngt5a62yhoxa6xq3zhxo4hon",
+    "explicit": false,
+    "spec": {
+     "py-numpy": {
+      "version": "1.12.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "blas": true,
+       "lapack": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "openblas": {
+        "hash": "qb6pifdqt3br3cdevers6whdxixh33ia",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "python": {
+        "hash": "eapn674tssm7xxq6xiliw5lxt7mm362n",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "4rlfkv4hf47us2ebegonrnjimh7xtznx": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/ncurses-6.0-4rlfkv4hf47us2ebegonrnjimh7xtznx",
+    "explicit": false,
+    "spec": {
+     "ncurses": {
+      "version": "6.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "symlinks": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 3,
+    "installed": true
+   },
+   "5qpuxd53h5j27xkcp7rhlqzvw64g7jcq": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/ncurses-6.0-5qpuxd53h5j27xkcp7rhlqzvw64g7jcq",
+    "explicit": false,
+    "spec": {
+     "ncurses": {
+      "version": "6.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "symlinks": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "dbcsy2eta7nuwil7sw4oa3zdw5esugln": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/cmake-3.7.2-dbcsy2eta7nuwil7sw4oa3zdw5esugln",
+    "explicit": false,
+    "spec": {
+     "cmake": {
+      "version": "3.7.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "doc": false,
+       "ncurses": true,
+       "openssl": true,
+       "ownlibs": true,
+       "qt": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "ncurses": {
+        "hash": "4rlfkv4hf47us2ebegonrnjimh7xtznx",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "openssl": {
+        "hash": "a667kqeljuc3kyt3624y6us7fbetsaev",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "fx6sympo3dzxacsyphhu4gykonnbdw32": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/zlib-1.2.11-fx6sympo3dzxacsyphhu4gykonnbdw32",
+    "explicit": false,
+    "spec": {
+     "zlib": {
+      "version": "1.2.11",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "pic": true,
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 3,
+    "installed": true
+   },
+   "i7vg7phomj7v73dvmqqlzjngdbfejax6": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/xz-5.2.3-i7vg7phomj7v73dvmqqlzjngdbfejax6",
+    "explicit": false,
+    "spec": {
+     "xz": {
+      "version": "5.2.3",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "evkw2hogbe2izqzb3txrz35gmhx4h6vu": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/dyninst-9.3.0-evkw2hogbe2izqzb3txrz35gmhx4h6vu",
+    "explicit": false,
+    "spec": {
+     "dyninst": {
+      "version": "9.3.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "stat_dysect": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "boost": {
+        "hash": "u77poae23raxnqbiguwhwt5adc7dfzg5",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "elfutils": {
+        "hash": "gy2tr24pv2d3clfrrivfgn42ydxk4zki",
+        "type": [
+         "link"
+        ]
+       },
+       "libdwarf": {
+        "hash": "47kcpehg6ldi5jwsww7t6ebw74j3jn3u",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "yxhjznhbx2nud4c5pxnsh4wsvwyzfd7v": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/xz-5.2.3-yxhjznhbx2nud4c5pxnsh4wsvwyzfd7v",
+    "explicit": false,
+    "spec": {
+     "xz": {
+      "version": "5.2.3",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "rizwtyaorywor72aqhqmazcytgcjrhiv": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/hwloc-1.11.6-rizwtyaorywor72aqhqmazcytgcjrhiv",
+    "explicit": false,
+    "spec": {
+     "hwloc": {
+      "version": "1.11.6",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cuda": false,
+       "libxml2": true,
+       "pci": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "libpciaccess": {
+        "hash": "jepdtr53ldnip7q7rz5r7mkig5hho4t6",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "libxml2": {
+        "hash": "jko53qleyayepdyoqluh6jbtvrvwxuza",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "bg46fuzd6353vk3bmah6ycqmmdecq5ws": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/py-appdirs-1.4.0-bg46fuzd6353vk3bmah6ycqmmdecq5ws",
+    "explicit": false,
+    "spec": {
+     "py-appdirs": {
+      "version": "1.4.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "python": {
+        "hash": "eapn674tssm7xxq6xiliw5lxt7mm362n",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "52bk5rttkzszway7mvcijjqilkcyfp7t": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/tar-1.29-52bk5rttkzszway7mvcijjqilkcyfp7t",
+    "explicit": false,
+    "spec": {
+     "tar": {
+      "version": "1.29",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "5odxtlxihbfjtj4dxo52oz5f7r6ir6jk": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gmp-6.1.2-5odxtlxihbfjtj4dxo52oz5f7r6ir6jk",
+    "explicit": false,
+    "spec": {
+     "gmp": {
+      "version": "6.1.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 4,
+    "installed": true
+   },
+   "4wkexyzgaxdwrfs6wqje2ppcm5di263m": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/ncurses-6.0-4wkexyzgaxdwrfs6wqje2ppcm5di263m",
+    "explicit": false,
+    "spec": {
+     "ncurses": {
+      "version": "6.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "symlinks": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "yyfotf4p6cg34qnkhfsbv2zk2j76zjqj": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/libsigsegv-2.11-yyfotf4p6cg34qnkhfsbv2zk2j76zjqj",
+    "explicit": false,
+    "spec": {
+     "libsigsegv": {
+      "version": "2.11",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "fqnf7tgxtwvfqj6huopb22tierabug42": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-six-1.10.0-fqnf7tgxtwvfqj6huopb22tierabug42",
+    "explicit": false,
+    "spec": {
+     "py-six": {
+      "version": "1.10.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "python": {
+        "hash": "qx6wknxwlziqf6o62bgwud3jr43b5vcm",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "35hgvfeckiox5czlppwpgzizr55oe46k": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/util-macros-1.19.1-35hgvfeckiox5czlppwpgzizr55oe46k",
+    "explicit": false,
+    "spec": {
+     "util-macros": {
+      "version": "1.19.1",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "qwzjqp3cryv73txezem7t3zns45zqvtc": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/mawk-1.3.4-qwzjqp3cryv73txezem7t3zns45zqvtc",
+    "explicit": false,
+    "spec": {
+     "mawk": {
+      "version": "1.3.4",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "n2i3w22dhug2gwkkizl2qubm4hihtu33": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/bzip2-1.0.6-n2i3w22dhug2gwkkizl2qubm4hihtu33",
+    "explicit": false,
+    "spec": {
+     "bzip2": {
+      "version": "1.0.6",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "v7v4bueia4anlvo5phsjgc45cru3w2f2": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/libxml2-2.9.4-v7v4bueia4anlvo5phsjgc45cru3w2f2",
+    "explicit": false,
+    "spec": {
+     "libxml2": {
+      "version": "2.9.4",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "python": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "xz": {
+        "hash": "fwp3cwusylim2ax6t4c4hrd5nt6zsf6i",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "zlib": {
+        "hash": "acr66adnfuvtuj4iheoc7yvvkdbtrupf",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "kjl6raqg5eygq4wrhp7g3utf7xjw6avc": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/tar-1.29-kjl6raqg5eygq4wrhp7g3utf7xjw6avc",
+    "explicit": false,
+    "spec": {
+     "tar": {
+      "version": "1.29",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "qkdztewby5jah3vp2dwlruxycumpj5s6": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/flex-2.6.3-qkdztewby5jah3vp2dwlruxycumpj5s6",
+    "explicit": false,
+    "spec": {
+     "flex": {
+      "version": "2.6.3",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "jko53qleyayepdyoqluh6jbtvrvwxuza": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/libxml2-2.9.4-jko53qleyayepdyoqluh6jbtvrvwxuza",
+    "explicit": false,
+    "spec": {
+     "libxml2": {
+      "version": "2.9.4",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "python": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "xz": {
+        "hash": "i7vg7phomj7v73dvmqqlzjngdbfejax6",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "zlib": {
+        "hash": "fx6sympo3dzxacsyphhu4gykonnbdw32",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "47kcpehg6ldi5jwsww7t6ebw74j3jn3u": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/libdwarf-20160507-47kcpehg6ldi5jwsww7t6ebw74j3jn3u",
+    "explicit": false,
+    "spec": {
+     "libdwarf": {
+      "version": "20160507",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "elfutils": {
+        "hash": "gy2tr24pv2d3clfrrivfgn42ydxk4zki",
+        "type": [
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "acr66adnfuvtuj4iheoc7yvvkdbtrupf": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/zlib-1.2.11-acr66adnfuvtuj4iheoc7yvvkdbtrupf",
+    "explicit": false,
+    "spec": {
+     "zlib": {
+      "version": "1.2.11",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "pic": true,
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 3,
+    "installed": true
+   },
+   "w6kypbfhiynvvcdekjeiwwkhhp3ng2bo": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/netlib-scalapack-2.0.2-w6kypbfhiynvvcdekjeiwwkhhp3ng2bo",
+    "explicit": true,
+    "spec": {
+     "netlib-scalapack": {
+      "version": "2.0.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "fpic": false,
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "openblas": {
+        "hash": "mjzp222db3otl2qnh6ptm6z2u5gol6jl",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "openmpi": {
+        "hash": "emh5ip2hrlixu5pss32qnteub7cm2n3e",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "e7ep5zfxtfxfjuxoa2x4fm5bnnrr6ltj": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/libxml2-2.9.4-e7ep5zfxtfxfjuxoa2x4fm5bnnrr6ltj",
+    "explicit": false,
+    "spec": {
+     "libxml2": {
+      "version": "2.9.4",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "python": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "xz": {
+        "hash": "avz7cw2p3ezjyzfwqaq4x6fjjmiiwe2v",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "zlib": {
+        "hash": "r6cf4ev65fnjeodxgffdsip6tokpqkqp",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "co2ncyiiazwqzkglrneiwsex37p7agrr": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/mawk-1.3.4-co2ncyiiazwqzkglrneiwsex37p7agrr",
+    "explicit": false,
+    "spec": {
+     "mawk": {
+      "version": "1.3.4",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "qbnerqzrxquvqznvsx6dpj6nwzc5q5mc": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gmp-6.1.2-qbnerqzrxquvqznvsx6dpj6nwzc5q5mc",
+    "explicit": false,
+    "spec": {
+     "gmp": {
+      "version": "6.1.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 4,
+    "installed": true
+   },
+   "akwstj7gsojh4fsibpbx4wpgw6xhcuob": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/netlib-scalapack-2.0.2-akwstj7gsojh4fsibpbx4wpgw6xhcuob",
+    "explicit": true,
+    "spec": {
+     "netlib-scalapack": {
+      "version": "2.0.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "fpic": false,
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "mpich": {
+        "hash": "7nuwk726bah3xqaanuzoqhwdzqekrdhn",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "netlib-lapack": {
+        "hash": "34x5h4zmopzqg2sl4hv37qkmhsy5gnq6",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "2gebmvfag3bm7deqtuu4q2by4l4rhwte": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/py-setuptools-34.2.0-2gebmvfag3bm7deqtuu4q2by4l4rhwte",
+    "explicit": false,
+    "spec": {
+     "py-setuptools": {
+      "version": "34.2.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "py-appdirs": {
+        "hash": "bg46fuzd6353vk3bmah6ycqmmdecq5ws",
+        "type": [
+         "build",
+         "run"
+        ]
+       },
+       "py-packaging": {
+        "hash": "mihjbizifyt64be24smz3dsvffntcu6v",
+        "type": [
+         "build",
+         "run"
+        ]
+       },
+       "py-six": {
+        "hash": "phvu2fwx6bay6uwlfdb2ehzq77rrdcii",
+        "type": [
+         "build",
+         "run"
+        ]
+       },
+       "python": {
+        "hash": "eapn674tssm7xxq6xiliw5lxt7mm362n",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "e5dbkxvi5kjkx3j7fxjvg44dutsllmhc": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/openmpi-2.1.0-e5dbkxvi5kjkx3j7fxjvg44dutsllmhc",
+    "explicit": false,
+    "spec": {
+     "openmpi": {
+      "version": "2.1.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "java": false,
+       "mxm": false,
+       "pmi": false,
+       "psm": false,
+       "psm2": false,
+       "slurm": false,
+       "sqlite3": false,
+       "thread_multiple": false,
+       "tm": false,
+       "verbs": true,
+       "vt": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "hwloc": {
+        "hash": "rizwtyaorywor72aqhqmazcytgcjrhiv",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "3wslknueis6r2nx3tasaizgda2ianxfa": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/isl-0.18-3wslknueis6r2nx3tasaizgda2ianxfa",
+    "explicit": false,
+    "spec": {
+     "isl": {
+      "version": "0.18",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "gmp": {
+        "hash": "5odxtlxihbfjtj4dxo52oz5f7r6ir6jk",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "iaoqy4tyrra4dc6lzf3itxaplevfnuux": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/openmpi-2.1.0-iaoqy4tyrra4dc6lzf3itxaplevfnuux",
+    "explicit": false,
+    "spec": {
+     "openmpi": {
+      "version": "2.1.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "java": false,
+       "mxm": false,
+       "pmi": false,
+       "psm": false,
+       "psm2": false,
+       "slurm": false,
+       "sqlite3": false,
+       "thread_multiple": false,
+       "tm": false,
+       "verbs": true,
+       "vt": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "hwloc": {
+        "hash": "b5x7m4t4p5sn4cppr76ypfv2etf73n4f",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "a23xeefe3mpnmgzayfac5hzivru7vono": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/cmake-3.7.2-a23xeefe3mpnmgzayfac5hzivru7vono",
+    "explicit": false,
+    "spec": {
+     "cmake": {
+      "version": "3.7.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "doc": false,
+       "ncurses": true,
+       "openssl": true,
+       "ownlibs": true,
+       "qt": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "ncurses": {
+        "hash": "4wkexyzgaxdwrfs6wqje2ppcm5di263m",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "openssl": {
+        "hash": "7fk2ed4pha27twjsnkkhssqnrznwaac2",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "avz7cw2p3ezjyzfwqaq4x6fjjmiiwe2v": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/xz-5.2.3-avz7cw2p3ezjyzfwqaq4x6fjjmiiwe2v",
+    "explicit": false,
+    "spec": {
+     "xz": {
+      "version": "5.2.3",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "fgoqnw3taunnwuhrfmhbf7afbxhavqpf": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/mpich-3.2-fgoqnw3taunnwuhrfmhbf7afbxhavqpf",
+    "explicit": false,
+    "spec": {
+     "mpich": {
+      "version": "3.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "hydra": true,
+       "pmi": true,
+       "romio": true,
+       "verbs": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "no37mpayjgsejfwzxrp3io4ncmht4ogt": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/openssl-1.0.2k-no37mpayjgsejfwzxrp3io4ncmht4ogt",
+    "explicit": false,
+    "spec": {
+     "openssl": {
+      "version": "1.0.2k",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "zlib": {
+        "hash": "acr66adnfuvtuj4iheoc7yvvkdbtrupf",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "x4n2x5nc26j744f7zmnj4kmwy3wl5b33": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/callpath-1.0.2-x4n2x5nc26j744f7zmnj4kmwy3wl5b33",
+    "explicit": false,
+    "spec": {
+     "callpath": {
+      "version": "1.0.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "adept-utils": {
+        "hash": "tosdripy6ozmxm5bfw7nc3ca2lod7ifk",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "dyninst": {
+        "hash": "evkw2hogbe2izqzb3txrz35gmhx4h6vu",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "elfutils": {
+        "hash": "gy2tr24pv2d3clfrrivfgn42ydxk4zki",
+        "type": [
+         "link"
+        ]
+       },
+       "libdwarf": {
+        "hash": "47kcpehg6ldi5jwsww7t6ebw74j3jn3u",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "openmpi": {
+        "hash": "hb4uwvfvxuwt42cmdlwvjmj7lxqhg4eg",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "lnpesbuzxfafdx552hok4ipvyofrp2dz": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/libsigsegv-2.11-lnpesbuzxfafdx552hok4ipvyofrp2dz",
+    "explicit": false,
+    "spec": {
+     "libsigsegv": {
+      "version": "2.11",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "eokw4qygxftir3sjektxwnw6xb2vjw7t": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gettext-0.19.8.1-eokw4qygxftir3sjektxwnw6xb2vjw7t",
+    "explicit": false,
+    "spec": {
+     "gettext": {
+      "version": "0.19.8.1",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "bzip2": true,
+       "curses": true,
+       "git": true,
+       "libunistring": false,
+       "libxml2": true,
+       "tar": true,
+       "xz": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "bzip2": {
+        "hash": "r7iwetal7eikfzavw6s6wh427gk2gtqk",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "libxml2": {
+        "hash": "jko53qleyayepdyoqluh6jbtvrvwxuza",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "ncurses": {
+        "hash": "4wkexyzgaxdwrfs6wqje2ppcm5di263m",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "tar": {
+        "hash": "kjl6raqg5eygq4wrhp7g3utf7xjw6avc",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "xz": {
+        "hash": "i7vg7phomj7v73dvmqqlzjngdbfejax6",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "eapn674tssm7xxq6xiliw5lxt7mm362n": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/python-2.7.13-eapn674tssm7xxq6xiliw5lxt7mm362n",
+    "explicit": false,
+    "spec": {
+     "python": {
+      "version": "2.7.13",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "tk": false,
+       "ucs4": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "bzip2": {
+        "hash": "n2i3w22dhug2gwkkizl2qubm4hihtu33",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "ncurses": {
+        "hash": "4rlfkv4hf47us2ebegonrnjimh7xtznx",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "openssl": {
+        "hash": "a667kqeljuc3kyt3624y6us7fbetsaev",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "readline": {
+        "hash": "c7nzq3mpztdcvdxcsnmufufbxz6aqj3x",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "sqlite": {
+        "hash": "l2z4rhpzztvkshzqv7ntc6bfhgoexo6x",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "zlib": {
+        "hash": "r6cf4ev65fnjeodxgffdsip6tokpqkqp",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 7,
+    "installed": true
+   },
+   "m3teqofrgbjh5wejjvx26juitzg2v2o7": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/mpc-1.0.3-m3teqofrgbjh5wejjvx26juitzg2v2o7",
+    "explicit": false,
+    "spec": {
+     "mpc": {
+      "version": "1.0.3",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "gmp": {
+        "hash": "5odxtlxihbfjtj4dxo52oz5f7r6ir6jk",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "mpfr": {
+        "hash": "fgkq2iksdz2yoy7a757rtyytoyr3ujrb",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "xbxk6rjlfse25ijaziyaiz4gord4expo": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/hwloc-1.11.6-xbxk6rjlfse25ijaziyaiz4gord4expo",
+    "explicit": false,
+    "spec": {
+     "hwloc": {
+      "version": "1.11.6",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cuda": false,
+       "libxml2": true,
+       "pci": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "libpciaccess": {
+        "hash": "76ezfp2josf7w53o7mjzrbekcba5jn6t",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "libxml2": {
+        "hash": "hvr44mn3lfne4352n42yem7vlepbf4bu",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "yfl3ee4ryyfmis464qv7qdp765ahlm7f": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/m4-1.4.18-yfl3ee4ryyfmis464qv7qdp765ahlm7f",
+    "explicit": false,
+    "spec": {
+     "m4": {
+      "version": "1.4.18",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "sigsegv": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "libsigsegv": {
+        "hash": "xqiyghtlms7lwgexu3wh7zdtbw6lnytl",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "v6oiwicfe7jxgxlvmbxlnobyb52c5bww": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/netlib-lapack-3.6.1-v6oiwicfe7jxgxlvmbxlnobyb52c5bww",
+    "explicit": false,
+    "spec": {
+     "netlib-lapack": {
+      "version": "3.6.1",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "debug": false,
+       "external-blas": false,
+       "lapacke": true,
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "waamaua7b7523i2a35n2nvfuhqek44lw": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/libtool-2.4.6-waamaua7b7523i2a35n2nvfuhqek44lw",
+    "explicit": false,
+    "spec": {
+     "libtool": {
+      "version": "2.4.6",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "qgjb5ho6whpjkrtqwpfvdlfqdzzddo5h": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/flex-2.6.3-qgjb5ho6whpjkrtqwpfvdlfqdzzddo5h",
+    "explicit": false,
+    "spec": {
+     "flex": {
+      "version": "2.6.3",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "pxfnxzwqwfmmynoixozfidpllxl7xfvn": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-packaging-16.8-pxfnxzwqwfmmynoixozfidpllxl7xfvn",
+    "explicit": false,
+    "spec": {
+     "py-packaging": {
+      "version": "16.8",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "py-pyparsing": {
+        "hash": "ocrg3acoryytnjdhyuneog2x4a3st67j",
+        "type": [
+         "run"
+        ]
+       },
+       "py-six": {
+        "hash": "fqnf7tgxtwvfqj6huopb22tierabug42",
+        "type": [
+         "run"
+        ]
+       },
+       "python": {
+        "hash": "qx6wknxwlziqf6o62bgwud3jr43b5vcm",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "fpfhck23eweiu3to76kuarm72tubrqjc": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.1.0-fpfhck23eweiu3to76kuarm72tubrqjc",
+    "explicit": true,
+    "spec": {
+     "gcc": {
+      "version": "6.1.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "binutils": true,
+       "piclibs": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "binutils": {
+        "hash": "vye3wye4rmb45n2sd2tsvjdsjlsw2jgt",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "gmp": {
+        "hash": "5odxtlxihbfjtj4dxo52oz5f7r6ir6jk",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "isl": {
+        "hash": "3wslknueis6r2nx3tasaizgda2ianxfa",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "mpc": {
+        "hash": "m3teqofrgbjh5wejjvx26juitzg2v2o7",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "mpfr": {
+        "hash": "fgkq2iksdz2yoy7a757rtyytoyr3ujrb",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "c7nzq3mpztdcvdxcsnmufufbxz6aqj3x": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/readline-7.0-c7nzq3mpztdcvdxcsnmufufbxz6aqj3x",
+    "explicit": false,
+    "spec": {
+     "readline": {
+      "version": "7.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "ncurses": {
+        "hash": "4rlfkv4hf47us2ebegonrnjimh7xtznx",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "sy7npop2rbyyi5a7pkh6jmzw7qr5feds": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/pkg-config-0.29.2-sy7npop2rbyyi5a7pkh6jmzw7qr5feds",
+    "explicit": false,
+    "spec": {
+     "pkg-config": {
+      "version": "0.29.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "internal_glib": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "syggfzdvxgrp25oq6nm4f4pbrtjmjjbv": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gcc-4.9.3-syggfzdvxgrp25oq6nm4f4pbrtjmjjbv",
+    "explicit": true,
+    "spec": {
+     "gcc": {
+      "version": "4.9.3",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "binutils": true,
+       "piclibs": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "binutils": {
+        "hash": "5tvxpzl4tmmqxrstzuo32jcuh2shdrjr",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "gmp": {
+        "hash": "qbnerqzrxquvqznvsx6dpj6nwzc5q5mc",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "mpc": {
+        "hash": "nr53at45pjmvufnngxhsrorfgmoucttd",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "mpfr": {
+        "hash": "qqtt2etcxz7gkykoxl5pn46647wt4lxd",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "m6dk46bcsfhfp35xcsmyxl6no2ynvmc5": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/py-pyparsing-2.1.10-m6dk46bcsfhfp35xcsmyxl6no2ynvmc5",
+    "explicit": false,
+    "spec": {
+     "py-pyparsing": {
+      "version": "2.1.10",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "python": {
+        "hash": "eapn674tssm7xxq6xiliw5lxt7mm362n",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "zmxuszdnqkuorm73v5rrjmuwdmwfi5kk": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-setuptools-34.2.0-zmxuszdnqkuorm73v5rrjmuwdmwfi5kk",
+    "explicit": false,
+    "spec": {
+     "py-setuptools": {
+      "version": "34.2.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "py-appdirs": {
+        "hash": "6eo6qjulrfkpit5nb6ejsjhbhufqzq2x",
+        "type": [
+         "build",
+         "run"
+        ]
+       },
+       "py-packaging": {
+        "hash": "pxfnxzwqwfmmynoixozfidpllxl7xfvn",
+        "type": [
+         "build",
+         "run"
+        ]
+       },
+       "py-six": {
+        "hash": "fqnf7tgxtwvfqj6huopb22tierabug42",
+        "type": [
+         "build",
+         "run"
+        ]
+       },
+       "python": {
+        "hash": "qx6wknxwlziqf6o62bgwud3jr43b5vcm",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "phvu2fwx6bay6uwlfdb2ehzq77rrdcii": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/py-six-1.10.0-phvu2fwx6bay6uwlfdb2ehzq77rrdcii",
+    "explicit": false,
+    "spec": {
+     "py-six": {
+      "version": "1.10.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "python": {
+        "hash": "eapn674tssm7xxq6xiliw5lxt7mm362n",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "gy2tr24pv2d3clfrrivfgn42ydxk4zki": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/elfutils-0.163-gy2tr24pv2d3clfrrivfgn42ydxk4zki",
+    "explicit": false,
+    "spec": {
+     "elfutils": {
+      "version": "0.163",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 3,
+    "installed": true
+   },
+   "btmcxmgjfxaycno3rijqgu3vfcdm6ecb": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/perl-5.24.1-btmcxmgjfxaycno3rijqgu3vfcdm6ecb",
+    "explicit": false,
+    "spec": {
+     "perl": {
+      "version": "5.24.1",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cpanm": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "jq35lzqf6k7gqqdk5ygy6dedf6gzkipa": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/perl-5.24.1-jq35lzqf6k7gqqdk5ygy6dedf6gzkipa",
+    "explicit": false,
+    "spec": {
+     "perl": {
+      "version": "5.24.1",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cpanm": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "wutwmztcgexwburu4cdp6irhmruaoxit": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/hwloc-1.11.6-wutwmztcgexwburu4cdp6irhmruaoxit",
+    "explicit": false,
+    "spec": {
+     "hwloc": {
+      "version": "1.11.6",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cuda": false,
+       "libxml2": true,
+       "pci": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "libpciaccess": {
+        "hash": "4ap5tejljuw6la6hxpelbh7dcshddrwp",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "libxml2": {
+        "hash": "v7v4bueia4anlvo5phsjgc45cru3w2f2",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "dyqf5qarydnf5ybi7hfxlm4fs2wiz7pz": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/netlib-scalapack-2.0.2-dyqf5qarydnf5ybi7hfxlm4fs2wiz7pz",
+    "explicit": true,
+    "spec": {
+     "netlib-scalapack": {
+      "version": "2.0.2",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "fpic": false,
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "netlib-lapack": {
+        "hash": "v6oiwicfe7jxgxlvmbxlnobyb52c5bww",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "openmpi": {
+        "hash": "emh5ip2hrlixu5pss32qnteub7cm2n3e",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "hvr44mn3lfne4352n42yem7vlepbf4bu": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/libxml2-2.9.4-hvr44mn3lfne4352n42yem7vlepbf4bu",
+    "explicit": false,
+    "spec": {
+     "libxml2": {
+      "version": "2.9.4",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "python": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "xz": {
+        "hash": "yxhjznhbx2nud4c5pxnsh4wsvwyzfd7v",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "zlib": {
+        "hash": "hpdicdxfq5jn2ycttiuiu42hemg444nf",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "qx6wknxwlziqf6o62bgwud3jr43b5vcm": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/python-2.7.13-qx6wknxwlziqf6o62bgwud3jr43b5vcm",
+    "explicit": false,
+    "spec": {
+     "python": {
+      "version": "2.7.13",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "tk": false,
+       "ucs4": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "bzip2": {
+        "hash": "etvtnr4htcintgnpezr22uc37nro2zyw",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "ncurses": {
+        "hash": "erubsle2jt7czul3oljyqkciuhkvxosm",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "openssl": {
+        "hash": "no37mpayjgsejfwzxrp3io4ncmht4ogt",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "readline": {
+        "hash": "mrr6kqryl57acbcg3wwo6hkpfoa6g4ko",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "sqlite": {
+        "hash": "6cj4qkkf4qev4wpv3qg4fwmmnmfsgtpc",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "zlib": {
+        "hash": "acr66adnfuvtuj4iheoc7yvvkdbtrupf",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 7,
+    "installed": true
+   },
+   "u77poae23raxnqbiguwhwt5adc7dfzg5": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/boost-1.63.0-u77poae23raxnqbiguwhwt5adc7dfzg5",
+    "explicit": false,
+    "spec": {
+     "boost": {
+      "version": "1.63.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "atomic": true,
+       "chrono": true,
+       "date_time": true,
+       "debug": false,
+       "filesystem": true,
+       "graph": false,
+       "icu": false,
+       "iostreams": true,
+       "locale": true,
+       "log": true,
+       "math": true,
+       "mpi": false,
+       "multithreaded": true,
+       "program_options": true,
+       "python": false,
+       "random": true,
+       "regex": true,
+       "serialization": true,
+       "shared": true,
+       "signals": true,
+       "singlethreaded": false,
+       "system": true,
+       "taggedlayout": false,
+       "test": true,
+       "thread": true,
+       "timer": true,
+       "wave": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "bzip2": {
+        "hash": "qrd3gzlkqpof6jthkmt2vejxvmbd3x3s",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "zlib": {
+        "hash": "hpdicdxfq5jn2ycttiuiu42hemg444nf",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "hb4uwvfvxuwt42cmdlwvjmj7lxqhg4eg": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/openmpi-2.1.0-hb4uwvfvxuwt42cmdlwvjmj7lxqhg4eg",
+    "explicit": false,
+    "spec": {
+     "openmpi": {
+      "version": "2.1.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "java": false,
+       "mxm": false,
+       "pmi": false,
+       "psm": false,
+       "psm2": false,
+       "slurm": false,
+       "sqlite3": false,
+       "thread_multiple": false,
+       "tm": false,
+       "verbs": true,
+       "vt": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "hwloc": {
+        "hash": "xbxk6rjlfse25ijaziyaiz4gord4expo",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 2,
+    "installed": true
+   },
+   "6z76747bygjzudkuvhn4vek36pbtt2ys": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/bison-3.0.4-6z76747bygjzudkuvhn4vek36pbtt2ys",
+    "explicit": false,
+    "spec": {
+     "bison": {
+      "version": "3.0.4",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "m4": {
+        "hash": "yfl3ee4ryyfmis464qv7qdp765ahlm7f",
+        "type": [
+         "build",
+         "run"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 0,
+    "installed": true
+   },
+   "mrr6kqryl57acbcg3wwo6hkpfoa6g4ko": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/readline-7.0-mrr6kqryl57acbcg3wwo6hkpfoa6g4ko",
+    "explicit": false,
+    "spec": {
+     "readline": {
+      "version": "7.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "ncurses": {
+        "hash": "erubsle2jt7czul3oljyqkciuhkvxosm",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "erubsle2jt7czul3oljyqkciuhkvxosm": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/ncurses-6.0-erubsle2jt7czul3oljyqkciuhkvxosm",
+    "explicit": false,
+    "spec": {
+     "ncurses": {
+      "version": "6.0",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "symlinks": false,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 3,
+    "installed": true
+   },
+   "c6y35no4bqsxdoxrmhjbgifj44kcfz7a": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/libpciaccess-0.13.4-c6y35no4bqsxdoxrmhjbgifj44kcfz7a",
+    "explicit": false,
+    "spec": {
+     "libpciaccess": {
+      "version": "0.13.4",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "6.1.0"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "7fk2ed4pha27twjsnkkhssqnrznwaac2": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/openssl-1.0.2k-7fk2ed4pha27twjsnkkhssqnrznwaac2",
+    "explicit": false,
+    "spec": {
+     "openssl": {
+      "version": "1.0.2k",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "zlib": {
+        "hash": "fx6sympo3dzxacsyphhu4gykonnbdw32",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "hpdicdxfq5jn2ycttiuiu42hemg444nf": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/zlib-1.2.11-hpdicdxfq5jn2ycttiuiu42hemg444nf",
+    "explicit": false,
+    "spec": {
+     "zlib": {
+      "version": "1.2.11",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel7",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.8.5"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "pic": true,
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 3,
+    "installed": true
+   },
+   "slhvq4ah2a6bmas7qg23uy43efle7bzr": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/adept-utils-1.0.1-slhvq4ah2a6bmas7qg23uy43efle7bzr",
+    "explicit": false,
+    "spec": {
+     "adept-utils": {
+      "version": "1.0.1",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.4.7"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      },
+      "dependencies": {
+       "boost": {
+        "hash": "t4qaymzxzocv3pxas5vpmaxozlvwwrgg",
+        "type": [
+         "build",
+         "link"
+        ]
+       },
+       "openmpi": {
+        "hash": "e5dbkxvi5kjkx3j7fxjvg44dutsllmhc",
+        "type": [
+         "build",
+         "link"
+        ]
+       }
+      }
+     }
+    },
+    "ref_count": 1,
+    "installed": true
+   },
+   "mjzp222db3otl2qnh6ptm6z2u5gol6jl": {
+    "path": "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/openblas-0.2.19-mjzp222db3otl2qnh6ptm6z2u5gol6jl",
+    "explicit": false,
+    "spec": {
+     "openblas": {
+      "version": "0.2.19",
+      "arch": {
+       "platform": "linux",
+       "platform_os": "rhel6",
+       "target": "x86_64"
+      },
+      "compiler": {
+       "name": "gcc",
+       "version": "4.9.3"
+      },
+      "namespace": "builtin",
+      "parameters": {
+       "openmp": false,
+       "pic": true,
+       "shared": true,
+       "cflags": [],
+       "cppflags": [],
+       "cxxflags": [],
+       "fflags": [],
+       "ldflags": [],
+       "ldlibs": []
+      }
+     }
+    },
+    "ref_count": 4,
+    "installed": true
+   }
+  },
+  "version": "0.9.2"
+ }
+}

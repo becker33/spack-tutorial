@@ -4,7 +4,6 @@
 /var/spack/repos/*/index.yaml
 /var/spack/repos/*/lock
 *.pyc
-/opt
 *~
 .DS_Store
 .idea

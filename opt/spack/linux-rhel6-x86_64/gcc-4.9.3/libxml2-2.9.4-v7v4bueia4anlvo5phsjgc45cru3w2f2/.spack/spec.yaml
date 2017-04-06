@@ -1,0 +1,69 @@
+spec:
+- libxml2:
+    version: 2.9.4
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      python: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+      xz:
+        hash: fwp3cwusylim2ax6t4c4hrd5nt6zsf6i
+        type:
+        - build
+        - link
+      zlib:
+        hash: acr66adnfuvtuj4iheoc7yvvkdbtrupf
+        type:
+        - build
+        - link
+    hash: v7v4bueia4anlvo5phsjgc45cru3w2f2
+- xz:
+    version: 5.2.3
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: fwp3cwusylim2ax6t4c4hrd5nt6zsf6i
+- zlib:
+    version: 1.2.11
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      pic: true
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: acr66adnfuvtuj4iheoc7yvvkdbtrupf

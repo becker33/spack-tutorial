@@ -1,0 +1,19 @@
+spec:
+- util-macros:
+    version: 1.19.1
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: qswask5jhjzpu73id2rfzcmcsa5i2iew

@@ -60,7 +60,7 @@ packages_path      = join_path(repos_path, "builtin")
 mock_packages_path = join_path(repos_path, "builtin.mock")
 
 # User configuration location
-user_config_path = os.path.expanduser('~/.spack')
+user_config_path = os.path.expanduser('~/.spack-tutorial')
 
 prefix = spack_root
 opt_path       = join_path(prefix, "opt")

@@ -1,0 +1,44 @@
+spec:
+- m4:
+    version: 1.4.18
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      sigsegv: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+      libsigsegv:
+        hash: lnpesbuzxfafdx552hok4ipvyofrp2dz
+        type:
+        - build
+        - link
+    hash: hwegkxiufcw6f67bdenn2gostxcztban
+- libsigsegv:
+    version: '2.11'
+    arch:
+      platform: linux
+      platform_os: rhel6
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: lnpesbuzxfafdx552hok4ipvyofrp2dz
