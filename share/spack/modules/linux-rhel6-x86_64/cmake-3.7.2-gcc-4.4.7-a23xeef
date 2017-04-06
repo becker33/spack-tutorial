@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:21:22.168563
+##
+## cmake@3.7.2%gcc@4.4.7~doc+ncurses+openssl+ownlibs~qt arch=linux-rhel6-x86_64 /a23xeef
+##
+module-whatis "cmake @3.7.2"
+
+proc ModulesHelp { } {
+puts stderr "A cross-platform, open-source build system. CMake is a family of tools"
+puts stderr "designed to build, test and package software."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/cmake-3.7.2-a23xeefe3mpnmgzayfac5hzivru7vono/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/cmake-3.7.2-a23xeefe3mpnmgzayfac5hzivru7vono/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/cmake-3.7.2-a23xeefe3mpnmgzayfac5hzivru7vono/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/cmake-3.7.2-a23xeefe3mpnmgzayfac5hzivru7vono/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/cmake-3.7.2-a23xeefe3mpnmgzayfac5hzivru7vono/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/cmake-3.7.2-a23xeefe3mpnmgzayfac5hzivru7vono/man"

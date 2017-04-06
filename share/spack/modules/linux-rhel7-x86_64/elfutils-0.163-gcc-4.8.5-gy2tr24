@@ -1,0 +1,21 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:20:35.754384
+##
+## elfutils@0.163%gcc@4.8.5 arch=linux-rhel7-x86_64 /gy2tr24
+##
+module-whatis "elfutils @0.163"
+
+proc ModulesHelp { } {
+puts stderr "elfutils is a collection of various binary tools such as eu-objdump, eu-"
+puts stderr "readelf, and other utilities that allow you to inspect and manipulate"
+puts stderr "ELF files. Refer to Table 5.Tools Included in elfutils for Red Hat"
+puts stderr "Developer for a complete list of binary tools that are distributed with"
+puts stderr "the Red Hat Developer Toolset version of elfutils."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/elfutils-0.163-gy2tr24pv2d3clfrrivfgn42ydxk4zki/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/elfutils-0.163-gy2tr24pv2d3clfrrivfgn42ydxk4zki/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/elfutils-0.163-gy2tr24pv2d3clfrrivfgn42ydxk4zki/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/elfutils-0.163-gy2tr24pv2d3clfrrivfgn42ydxk4zki/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/elfutils-0.163-gy2tr24pv2d3clfrrivfgn42ydxk4zki/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/elfutils-0.163-gy2tr24pv2d3clfrrivfgn42ydxk4zki/man"

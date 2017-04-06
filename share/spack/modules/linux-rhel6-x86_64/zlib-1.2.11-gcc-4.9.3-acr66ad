@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:51:03.442547
+##
+## zlib@1.2.11%gcc@4.9.3+pic+shared arch=linux-rhel6-x86_64 /acr66ad
+##
+module-whatis "zlib @1.2.11"
+
+proc ModulesHelp { } {
+puts stderr "A free, general-purpose, legally unencumbered lossless data-compression"
+puts stderr "library."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/zlib-1.2.11-acr66adnfuvtuj4iheoc7yvvkdbtrupf/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/zlib-1.2.11-acr66adnfuvtuj4iheoc7yvvkdbtrupf/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/zlib-1.2.11-acr66adnfuvtuj4iheoc7yvvkdbtrupf/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/zlib-1.2.11-acr66adnfuvtuj4iheoc7yvvkdbtrupf/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/zlib-1.2.11-acr66adnfuvtuj4iheoc7yvvkdbtrupf/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/zlib-1.2.11-acr66adnfuvtuj4iheoc7yvvkdbtrupf/man"

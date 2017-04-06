@@ -1,0 +1,21 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:20:36.216115
+##
+## bzip2@1.0.6%gcc@4.8.5+shared arch=linux-rhel7-x86_64 /qrd3gzl
+##
+module-whatis "bzip2 @1.0.6"
+
+proc ModulesHelp { } {
+puts stderr "bzip2 is a freely available, patent free high-quality data compressor."
+puts stderr "It typically compresses files to within 10% to 15% of the best available"
+puts stderr "techniques (the PPM family of statistical compressors), whilst being"
+puts stderr "around twice as fast at compression and six times faster at"
+puts stderr "decompression."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/bzip2-1.0.6-qrd3gzlkqpof6jthkmt2vejxvmbd3x3s/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/bzip2-1.0.6-qrd3gzlkqpof6jthkmt2vejxvmbd3x3s/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/bzip2-1.0.6-qrd3gzlkqpof6jthkmt2vejxvmbd3x3s/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/bzip2-1.0.6-qrd3gzlkqpof6jthkmt2vejxvmbd3x3s/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/bzip2-1.0.6-qrd3gzlkqpof6jthkmt2vejxvmbd3x3s/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/bzip2-1.0.6-qrd3gzlkqpof6jthkmt2vejxvmbd3x3s/man"

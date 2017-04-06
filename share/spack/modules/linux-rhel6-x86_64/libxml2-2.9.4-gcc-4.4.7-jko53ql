@@ -1,0 +1,19 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:21:15.426378
+##
+## libxml2@2.9.4%gcc@4.4.7~python arch=linux-rhel6-x86_64 /jko53ql
+##
+module-whatis "libxml2 @2.9.4"
+
+proc ModulesHelp { } {
+puts stderr "Libxml2 is the XML C parser and toolkit developed for the Gnome project"
+puts stderr "(but usable outside of the Gnome platform), it is free software"
+puts stderr "available under the MIT License."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/libxml2-2.9.4-jko53qleyayepdyoqluh6jbtvrvwxuza/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/libxml2-2.9.4-jko53qleyayepdyoqluh6jbtvrvwxuza/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/libxml2-2.9.4-jko53qleyayepdyoqluh6jbtvrvwxuza/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/libxml2-2.9.4-jko53qleyayepdyoqluh6jbtvrvwxuza/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/libxml2-2.9.4-jko53qleyayepdyoqluh6jbtvrvwxuza/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/libxml2-2.9.4-jko53qleyayepdyoqluh6jbtvrvwxuza/man"

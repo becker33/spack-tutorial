@@ -1,0 +1,20 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:20:33.669747
+##
+## openssl@1.0.2k%gcc@4.8.5 arch=linux-rhel7-x86_64 /yrlwpnt
+##
+module-whatis "openssl @1.0.2k"
+
+proc ModulesHelp { } {
+puts stderr "OpenSSL is an open source project that provides a robust, commercial-"
+puts stderr "grade, and full-featured toolkit for the Transport Layer Security (TLS)"
+puts stderr "and Secure Sockets Layer (SSL) protocols. It is also a general-purpose"
+puts stderr "cryptography library."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/openssl-1.0.2k-yrlwpntmaipq74ot27tq3ixfswm4qout/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/openssl-1.0.2k-yrlwpntmaipq74ot27tq3ixfswm4qout/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/openssl-1.0.2k-yrlwpntmaipq74ot27tq3ixfswm4qout/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/openssl-1.0.2k-yrlwpntmaipq74ot27tq3ixfswm4qout/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/openssl-1.0.2k-yrlwpntmaipq74ot27tq3ixfswm4qout/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/openssl-1.0.2k-yrlwpntmaipq74ot27tq3ixfswm4qout/man"

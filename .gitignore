@@ -11,8 +11,6 @@
 /etc/spack/*.yaml
 /etc/spackconfig
 /share/spack/dotkit
-/share/spack/modules
-/share/spack/lmod
 /TAGS
 *.swp
 /htmlcov

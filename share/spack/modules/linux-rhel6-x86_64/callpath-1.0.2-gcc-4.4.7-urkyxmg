@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:21:33.210139
+##
+## callpath@1.0.2%gcc@4.4.7 arch=linux-rhel6-x86_64 /urkyxmg
+##
+module-whatis "callpath @1.0.2"
+
+proc ModulesHelp { } {
+puts stderr "Library for representing callpaths consistently in distributed-memory"
+puts stderr "performance tools."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/callpath-1.0.2-urkyxmgfmnbqsvobqutwamtu76bbowr2/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/callpath-1.0.2-urkyxmgfmnbqsvobqutwamtu76bbowr2/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/callpath-1.0.2-urkyxmgfmnbqsvobqutwamtu76bbowr2/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/callpath-1.0.2-urkyxmgfmnbqsvobqutwamtu76bbowr2/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/callpath-1.0.2-urkyxmgfmnbqsvobqutwamtu76bbowr2/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/callpath-1.0.2-urkyxmgfmnbqsvobqutwamtu76bbowr2/man"

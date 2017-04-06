@@ -1,0 +1,17 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:51:08.162620
+##
+## python@2.7.13%gcc@4.9.3~tk~ucs4 arch=linux-rhel6-x86_64 /qx6wknx
+##
+module-whatis "python @2.7.13"
+
+proc ModulesHelp { } {
+puts stderr "The Python programming language."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/python-2.7.13-qx6wknxwlziqf6o62bgwud3jr43b5vcm/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/python-2.7.13-qx6wknxwlziqf6o62bgwud3jr43b5vcm/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/python-2.7.13-qx6wknxwlziqf6o62bgwud3jr43b5vcm/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/python-2.7.13-qx6wknxwlziqf6o62bgwud3jr43b5vcm/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/python-2.7.13-qx6wknxwlziqf6o62bgwud3jr43b5vcm/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/python-2.7.13-qx6wknxwlziqf6o62bgwud3jr43b5vcm/man"

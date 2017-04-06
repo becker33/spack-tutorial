@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:49:10.040331
+##
+## py-packaging@16.8%gcc@4.8.5 arch=linux-rhel7-x86_64 /loayfyu
+##
+module-whatis "py-packaging @16.8"
+
+proc ModulesHelp { } {
+puts stderr "Core utilities for Python packages."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-packaging-16.8-loayfyuhf2brzskbhggieeyrany773zy/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-packaging-16.8-loayfyuhf2brzskbhggieeyrany773zy/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-packaging-16.8-loayfyuhf2brzskbhggieeyrany773zy/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-packaging-16.8-loayfyuhf2brzskbhggieeyrany773zy/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-packaging-16.8-loayfyuhf2brzskbhggieeyrany773zy/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-packaging-16.8-loayfyuhf2brzskbhggieeyrany773zy/man"
+prepend-path PYTHONPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-packaging-16.8-loayfyuhf2brzskbhggieeyrany773zy/lib/python2.7/site-packages"

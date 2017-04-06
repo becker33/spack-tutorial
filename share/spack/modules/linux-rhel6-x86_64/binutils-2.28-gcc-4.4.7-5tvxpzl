@@ -1,0 +1,17 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:28:47.098533
+##
+## binutils@2.28%gcc@4.4.7+gold~krellpatch~libiberty~plugins arch=linux-rhel6-x86_64 /5tvxpzl
+##
+module-whatis "binutils @2.28"
+
+proc ModulesHelp { } {
+puts stderr "GNU binutils, which contain the linker, assembler, objdump and others"
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/binutils-2.28-5tvxpzl4tmmqxrstzuo32jcuh2shdrjr/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/binutils-2.28-5tvxpzl4tmmqxrstzuo32jcuh2shdrjr/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/binutils-2.28-5tvxpzl4tmmqxrstzuo32jcuh2shdrjr/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/binutils-2.28-5tvxpzl4tmmqxrstzuo32jcuh2shdrjr/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/binutils-2.28-5tvxpzl4tmmqxrstzuo32jcuh2shdrjr/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/binutils-2.28-5tvxpzl4tmmqxrstzuo32jcuh2shdrjr/man"

@@ -1,0 +1,17 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 19:09:04.424126
+##
+## libpciaccess@0.13.4%gcc@4.9.3 arch=linux-rhel6-x86_64 /4ap5tej
+##
+module-whatis "libpciaccess @0.13.4"
+
+proc ModulesHelp { } {
+puts stderr "Generic PCI access library."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/libpciaccess-0.13.4-4ap5tejljuw6la6hxpelbh7dcshddrwp/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/libpciaccess-0.13.4-4ap5tejljuw6la6hxpelbh7dcshddrwp/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/libpciaccess-0.13.4-4ap5tejljuw6la6hxpelbh7dcshddrwp/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/libpciaccess-0.13.4-4ap5tejljuw6la6hxpelbh7dcshddrwp/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/libpciaccess-0.13.4-4ap5tejljuw6la6hxpelbh7dcshddrwp/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/libpciaccess-0.13.4-4ap5tejljuw6la6hxpelbh7dcshddrwp/man"

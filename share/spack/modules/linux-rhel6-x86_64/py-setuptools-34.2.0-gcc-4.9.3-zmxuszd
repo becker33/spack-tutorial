@@ -1,0 +1,19 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:51:23.381884
+##
+## py-setuptools@34.2.0%gcc@4.9.3 arch=linux-rhel6-x86_64 /zmxuszd
+##
+module-whatis "py-setuptools @34.2.0"
+
+proc ModulesHelp { } {
+puts stderr "A Python utility that aids in the process of downloading, building,"
+puts stderr "upgrading, installing, and uninstalling Python packages."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-setuptools-34.2.0-zmxuszdnqkuorm73v5rrjmuwdmwfi5kk/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-setuptools-34.2.0-zmxuszdnqkuorm73v5rrjmuwdmwfi5kk/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-setuptools-34.2.0-zmxuszdnqkuorm73v5rrjmuwdmwfi5kk/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-setuptools-34.2.0-zmxuszdnqkuorm73v5rrjmuwdmwfi5kk/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-setuptools-34.2.0-zmxuszdnqkuorm73v5rrjmuwdmwfi5kk/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-setuptools-34.2.0-zmxuszdnqkuorm73v5rrjmuwdmwfi5kk/man"
+prepend-path PYTHONPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-setuptools-34.2.0-zmxuszdnqkuorm73v5rrjmuwdmwfi5kk/lib/python2.7/site-packages"

@@ -1,0 +1,17 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:28:45.115561
+##
+## flex@2.6.3%gcc@4.4.7 arch=linux-rhel6-x86_64 /qgjb5ho
+##
+module-whatis "flex @2.6.3"
+
+proc ModulesHelp { } {
+puts stderr "Flex is a tool for generating scanners."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/flex-2.6.3-qgjb5ho6whpjkrtqwpfvdlfqdzzddo5h/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/flex-2.6.3-qgjb5ho6whpjkrtqwpfvdlfqdzzddo5h/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/flex-2.6.3-qgjb5ho6whpjkrtqwpfvdlfqdzzddo5h/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/flex-2.6.3-qgjb5ho6whpjkrtqwpfvdlfqdzzddo5h/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/flex-2.6.3-qgjb5ho6whpjkrtqwpfvdlfqdzzddo5h/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/flex-2.6.3-qgjb5ho6whpjkrtqwpfvdlfqdzzddo5h/man"

@@ -1,0 +1,20 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:20:26.345007
+##
+## xz@5.2.3%gcc@4.8.5 arch=linux-rhel7-x86_64 /yxhjznh
+##
+module-whatis "xz @5.2.3"
+
+proc ModulesHelp { } {
+puts stderr "XZ Utils is free general-purpose data compression software with high"
+puts stderr "compression ratio. XZ Utils were written for POSIX-like systems, but"
+puts stderr "also work on some not-so-POSIX systems. XZ Utils are the successor to"
+puts stderr "LZMA Utils."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/xz-5.2.3-yxhjznhbx2nud4c5pxnsh4wsvwyzfd7v/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/xz-5.2.3-yxhjznhbx2nud4c5pxnsh4wsvwyzfd7v/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/xz-5.2.3-yxhjznhbx2nud4c5pxnsh4wsvwyzfd7v/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/xz-5.2.3-yxhjznhbx2nud4c5pxnsh4wsvwyzfd7v/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/xz-5.2.3-yxhjznhbx2nud4c5pxnsh4wsvwyzfd7v/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/xz-5.2.3-yxhjznhbx2nud4c5pxnsh4wsvwyzfd7v/man"

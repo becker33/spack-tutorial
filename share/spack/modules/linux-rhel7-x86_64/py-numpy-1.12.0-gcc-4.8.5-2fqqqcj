@@ -1,0 +1,22 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:49:16.324457
+##
+## py-numpy@1.12.0%gcc@4.8.5+blas+lapack arch=linux-rhel7-x86_64 /2fqqqcj
+##
+module-whatis "py-numpy @1.12.0"
+
+proc ModulesHelp { } {
+puts stderr "NumPy is the fundamental package for scientific computing with Python."
+puts stderr "It contains among other things: a powerful N-dimensional array object,"
+puts stderr "sophisticated (broadcasting) functions, tools for integrating C/C++ and"
+puts stderr "Fortran code, and useful linear algebra, Fourier transform, and random"
+puts stderr "number capabilities"
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-numpy-1.12.0-2fqqqcj2jm2kykyuvbsf3mm7kp2bgtiu/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-numpy-1.12.0-2fqqqcj2jm2kykyuvbsf3mm7kp2bgtiu/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-numpy-1.12.0-2fqqqcj2jm2kykyuvbsf3mm7kp2bgtiu/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-numpy-1.12.0-2fqqqcj2jm2kykyuvbsf3mm7kp2bgtiu/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-numpy-1.12.0-2fqqqcj2jm2kykyuvbsf3mm7kp2bgtiu/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-numpy-1.12.0-2fqqqcj2jm2kykyuvbsf3mm7kp2bgtiu/man"
+prepend-path PYTHONPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-numpy-1.12.0-2fqqqcj2jm2kykyuvbsf3mm7kp2bgtiu/lib/python2.7/site-packages"

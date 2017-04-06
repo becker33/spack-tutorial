@@ -1,0 +1,25 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 19:09:06.691197
+##
+## hwloc@1.11.6%gcc@4.9.3~cuda+libxml2+pci arch=linux-rhel6-x86_64 /wutwmzt
+##
+module-whatis "hwloc @1.11.6"
+
+proc ModulesHelp { } {
+puts stderr "The Portable Hardware Locality (hwloc) software package provides a"
+puts stderr "portable abstraction (across OS, versions, architectures, ...) of the"
+puts stderr "hierarchical topology of modern architectures, including NUMA memory"
+puts stderr "nodes, sockets, shared caches, cores and simultaneous multithreading. It"
+puts stderr "also gathers various system attributes such as cache and memory"
+puts stderr "information as well as the locality of I/O devices such as network"
+puts stderr "interfaces, InfiniBand HCAs or GPUs. It primarily aims at helping"
+puts stderr "applications with gathering information about modern computing hardware"
+puts stderr "so as to exploit it accordingly and efficiently."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/hwloc-1.11.6-wutwmztcgexwburu4cdp6irhmruaoxit/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/hwloc-1.11.6-wutwmztcgexwburu4cdp6irhmruaoxit/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/hwloc-1.11.6-wutwmztcgexwburu4cdp6irhmruaoxit/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/hwloc-1.11.6-wutwmztcgexwburu4cdp6irhmruaoxit/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/hwloc-1.11.6-wutwmztcgexwburu4cdp6irhmruaoxit/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/hwloc-1.11.6-wutwmztcgexwburu4cdp6irhmruaoxit/man"

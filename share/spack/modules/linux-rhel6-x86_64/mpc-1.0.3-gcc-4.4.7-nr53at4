@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:28:39.322889
+##
+## mpc@1.0.3%gcc@4.4.7 arch=linux-rhel6-x86_64 /nr53at4
+##
+module-whatis "mpc @1.0.3"
+
+proc ModulesHelp { } {
+puts stderr "Gnu Mpc is a C library for the arithmetic of complex numbers with"
+puts stderr "arbitrarily high precision and correct rounding of the result."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/mpc-1.0.3-nr53at45pjmvufnngxhsrorfgmoucttd/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/mpc-1.0.3-nr53at45pjmvufnngxhsrorfgmoucttd/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/mpc-1.0.3-nr53at45pjmvufnngxhsrorfgmoucttd/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/mpc-1.0.3-nr53at45pjmvufnngxhsrorfgmoucttd/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/mpc-1.0.3-nr53at45pjmvufnngxhsrorfgmoucttd/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/mpc-1.0.3-nr53at45pjmvufnngxhsrorfgmoucttd/man"

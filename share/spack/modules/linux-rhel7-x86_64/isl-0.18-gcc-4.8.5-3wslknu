@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:28:36.656673
+##
+## isl@0.18%gcc@4.8.5 arch=linux-rhel7-x86_64 /3wslknu
+##
+module-whatis "isl @0.18"
+
+proc ModulesHelp { } {
+puts stderr "isl (Integer Set Library) is a thread-safe C library for manipulating"
+puts stderr "sets and relations of integer points bounded by affine constraints."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/isl-0.18-3wslknueis6r2nx3tasaizgda2ianxfa/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/isl-0.18-3wslknueis6r2nx3tasaizgda2ianxfa/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/isl-0.18-3wslknueis6r2nx3tasaizgda2ianxfa/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/isl-0.18-3wslknueis6r2nx3tasaizgda2ianxfa/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/isl-0.18-3wslknueis6r2nx3tasaizgda2ianxfa/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/isl-0.18-3wslknueis6r2nx3tasaizgda2ianxfa/man"

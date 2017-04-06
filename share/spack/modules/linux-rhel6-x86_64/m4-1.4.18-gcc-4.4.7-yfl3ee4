@@ -1,0 +1,17 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:21:12.172186
+##
+## m4@1.4.18%gcc@4.4.7+sigsegv arch=linux-rhel6-x86_64 /yfl3ee4
+##
+module-whatis "m4 @1.4.18"
+
+proc ModulesHelp { } {
+puts stderr "GNU M4 is an implementation of the traditional Unix macro processor."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/m4-1.4.18-yfl3ee4ryyfmis464qv7qdp765ahlm7f/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/m4-1.4.18-yfl3ee4ryyfmis464qv7qdp765ahlm7f/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/m4-1.4.18-yfl3ee4ryyfmis464qv7qdp765ahlm7f/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/m4-1.4.18-yfl3ee4ryyfmis464qv7qdp765ahlm7f/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/m4-1.4.18-yfl3ee4ryyfmis464qv7qdp765ahlm7f/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/m4-1.4.18-yfl3ee4ryyfmis464qv7qdp765ahlm7f/man"

@@ -1,0 +1,17 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:21:19.145103
+##
+## mawk@1.3.4%gcc@4.4.7 arch=linux-rhel6-x86_64 /qwzjqp3
+##
+module-whatis "mawk @1.3.4"
+
+proc ModulesHelp { } {
+puts stderr "mawk is an interpreter for the AWK Programming Language."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/mawk-1.3.4-qwzjqp3cryv73txezem7t3zns45zqvtc/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/mawk-1.3.4-qwzjqp3cryv73txezem7t3zns45zqvtc/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/mawk-1.3.4-qwzjqp3cryv73txezem7t3zns45zqvtc/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/mawk-1.3.4-qwzjqp3cryv73txezem7t3zns45zqvtc/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/mawk-1.3.4-qwzjqp3cryv73txezem7t3zns45zqvtc/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/mawk-1.3.4-qwzjqp3cryv73txezem7t3zns45zqvtc/man"

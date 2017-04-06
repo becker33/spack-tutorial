@@ -1,0 +1,17 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 19:07:37.106262
+##
+## libsigsegv@2.11%gcc@6.1.0 arch=linux-rhel7-x86_64 /yyfotf4
+##
+module-whatis "libsigsegv @2.11"
+
+proc ModulesHelp { } {
+puts stderr "GNU libsigsegv is a library for handling page faults in user mode."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/libsigsegv-2.11-yyfotf4p6cg34qnkhfsbv2zk2j76zjqj/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/libsigsegv-2.11-yyfotf4p6cg34qnkhfsbv2zk2j76zjqj/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/libsigsegv-2.11-yyfotf4p6cg34qnkhfsbv2zk2j76zjqj/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/libsigsegv-2.11-yyfotf4p6cg34qnkhfsbv2zk2j76zjqj/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/libsigsegv-2.11-yyfotf4p6cg34qnkhfsbv2zk2j76zjqj/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/libsigsegv-2.11-yyfotf4p6cg34qnkhfsbv2zk2j76zjqj/man"

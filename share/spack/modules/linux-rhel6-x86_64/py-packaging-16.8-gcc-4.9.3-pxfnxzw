@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:51:19.991402
+##
+## py-packaging@16.8%gcc@4.9.3 arch=linux-rhel6-x86_64 /pxfnxzw
+##
+module-whatis "py-packaging @16.8"
+
+proc ModulesHelp { } {
+puts stderr "Core utilities for Python packages."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-packaging-16.8-pxfnxzwqwfmmynoixozfidpllxl7xfvn/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-packaging-16.8-pxfnxzwqwfmmynoixozfidpllxl7xfvn/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-packaging-16.8-pxfnxzwqwfmmynoixozfidpllxl7xfvn/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-packaging-16.8-pxfnxzwqwfmmynoixozfidpllxl7xfvn/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-packaging-16.8-pxfnxzwqwfmmynoixozfidpllxl7xfvn/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-packaging-16.8-pxfnxzwqwfmmynoixozfidpllxl7xfvn/man"
+prepend-path PYTHONPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-packaging-16.8-pxfnxzwqwfmmynoixozfidpllxl7xfvn/lib/python2.7/site-packages"

@@ -1,0 +1,19 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:21:20.162701
+##
+## perl@5.24.1%gcc@4.4.7+cpanm arch=linux-rhel6-x86_64 /jq35lzq
+##
+module-whatis "perl @5.24.1"
+
+proc ModulesHelp { } {
+puts stderr "Perl 5 is a highly capable, feature-rich programming language with over"
+puts stderr "27 years of development."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/perl-5.24.1-jq35lzqf6k7gqqdk5ygy6dedf6gzkipa/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/perl-5.24.1-jq35lzqf6k7gqqdk5ygy6dedf6gzkipa/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/perl-5.24.1-jq35lzqf6k7gqqdk5ygy6dedf6gzkipa/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/perl-5.24.1-jq35lzqf6k7gqqdk5ygy6dedf6gzkipa/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/perl-5.24.1-jq35lzqf6k7gqqdk5ygy6dedf6gzkipa/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/perl-5.24.1-jq35lzqf6k7gqqdk5ygy6dedf6gzkipa/man"
+setenv PERL5LIB "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/perl-5.24.1-jq35lzqf6k7gqqdk5ygy6dedf6gzkipa/lib/perl5"

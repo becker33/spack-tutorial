@@ -1,0 +1,17 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:49:14.086281
+##
+## openblas@0.2.19%gcc@4.8.5~openmp+pic+shared arch=linux-rhel7-x86_64 /nhjhpp4
+##
+module-whatis "openblas @0.2.19"
+
+proc ModulesHelp { } {
+puts stderr "OpenBLAS: An optimized BLAS library"
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/openblas-0.2.19-nhjhpp4nhjdreeldddhpp5cnxp4wu3md/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/openblas-0.2.19-nhjhpp4nhjdreeldddhpp5cnxp4wu3md/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/openblas-0.2.19-nhjhpp4nhjdreeldddhpp5cnxp4wu3md/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/openblas-0.2.19-nhjhpp4nhjdreeldddhpp5cnxp4wu3md/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/openblas-0.2.19-nhjhpp4nhjdreeldddhpp5cnxp4wu3md/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/openblas-0.2.19-nhjhpp4nhjdreeldddhpp5cnxp4wu3md/man"

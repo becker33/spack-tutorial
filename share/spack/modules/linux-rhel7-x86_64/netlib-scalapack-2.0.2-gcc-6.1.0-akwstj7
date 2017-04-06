@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 19:09:25.535399
+##
+## netlib-scalapack@2.0.2%gcc@6.1.0~fpic+shared arch=linux-rhel7-x86_64 /akwstj7
+##
+module-whatis "netlib-scalapack @2.0.2"
+
+proc ModulesHelp { } {
+puts stderr "ScaLAPACK is a library of high-performance linear algebra routines for"
+puts stderr "parallel distributed memory machines"
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/netlib-scalapack-2.0.2-akwstj7gsojh4fsibpbx4wpgw6xhcuob/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/netlib-scalapack-2.0.2-akwstj7gsojh4fsibpbx4wpgw6xhcuob/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/netlib-scalapack-2.0.2-akwstj7gsojh4fsibpbx4wpgw6xhcuob/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/netlib-scalapack-2.0.2-akwstj7gsojh4fsibpbx4wpgw6xhcuob/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/netlib-scalapack-2.0.2-akwstj7gsojh4fsibpbx4wpgw6xhcuob/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/netlib-scalapack-2.0.2-akwstj7gsojh4fsibpbx4wpgw6xhcuob/man"

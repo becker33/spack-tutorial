@@ -1,0 +1,17 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:51:15.632040
+##
+## python@2.7.13%gcc@6.1.0~tk~ucs4 arch=linux-rhel7-x86_64 /eapn674
+##
+module-whatis "python @2.7.13"
+
+proc ModulesHelp { } {
+puts stderr "The Python programming language."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/python-2.7.13-eapn674tssm7xxq6xiliw5lxt7mm362n/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/python-2.7.13-eapn674tssm7xxq6xiliw5lxt7mm362n/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/python-2.7.13-eapn674tssm7xxq6xiliw5lxt7mm362n/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/python-2.7.13-eapn674tssm7xxq6xiliw5lxt7mm362n/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/python-2.7.13-eapn674tssm7xxq6xiliw5lxt7mm362n/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/python-2.7.13-eapn674tssm7xxq6xiliw5lxt7mm362n/man"

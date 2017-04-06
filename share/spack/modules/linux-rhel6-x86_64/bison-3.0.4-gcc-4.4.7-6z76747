@@ -1,0 +1,19 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:28:40.177415
+##
+## bison@3.0.4%gcc@4.4.7 arch=linux-rhel6-x86_64 /6z76747
+##
+module-whatis "bison @3.0.4"
+
+proc ModulesHelp { } {
+puts stderr "Bison is a general-purpose parser generator that converts an annotated"
+puts stderr "context-free grammar into a deterministic LR or generalized LR (GLR)"
+puts stderr "parser employing LALR(1) parser tables."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/bison-3.0.4-6z76747bygjzudkuvhn4vek36pbtt2ys/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/bison-3.0.4-6z76747bygjzudkuvhn4vek36pbtt2ys/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/bison-3.0.4-6z76747bygjzudkuvhn4vek36pbtt2ys/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/bison-3.0.4-6z76747bygjzudkuvhn4vek36pbtt2ys/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/bison-3.0.4-6z76747bygjzudkuvhn4vek36pbtt2ys/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/bison-3.0.4-6z76747bygjzudkuvhn4vek36pbtt2ys/man"

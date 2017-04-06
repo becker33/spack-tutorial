@@ -1,0 +1,17 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:28:31.203849
+##
+## gettext@0.19.8.1%gcc@4.8.5+bzip2+curses+git~libunistring+libxml2+tar+xz arch=linux-rhel7-x86_64 /meti2rz
+##
+module-whatis "gettext @0.19.8.1"
+
+proc ModulesHelp { } {
+puts stderr "GNU internationalization (i18n) and localization (l10n) library."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gettext-0.19.8.1-meti2rz4df6sr5auemuiexlq5enrmw3y/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gettext-0.19.8.1-meti2rz4df6sr5auemuiexlq5enrmw3y/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gettext-0.19.8.1-meti2rz4df6sr5auemuiexlq5enrmw3y/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gettext-0.19.8.1-meti2rz4df6sr5auemuiexlq5enrmw3y/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gettext-0.19.8.1-meti2rz4df6sr5auemuiexlq5enrmw3y/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gettext-0.19.8.1-meti2rz4df6sr5auemuiexlq5enrmw3y/man"

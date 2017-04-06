@@ -1,0 +1,19 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:51:13.292241
+##
+## sqlite@3.8.5%gcc@6.1.0 arch=linux-rhel7-x86_64 /l2z4rhp
+##
+module-whatis "sqlite @3.8.5"
+
+proc ModulesHelp { } {
+puts stderr "SQLite3 is an SQL database engine in a C library. Programs that link the"
+puts stderr "SQLite3 library can have SQL database access without running a separate"
+puts stderr "RDBMS process."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/sqlite-3.8.5-l2z4rhpzztvkshzqv7ntc6bfhgoexo6x/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/sqlite-3.8.5-l2z4rhpzztvkshzqv7ntc6bfhgoexo6x/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/sqlite-3.8.5-l2z4rhpzztvkshzqv7ntc6bfhgoexo6x/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/sqlite-3.8.5-l2z4rhpzztvkshzqv7ntc6bfhgoexo6x/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/sqlite-3.8.5-l2z4rhpzztvkshzqv7ntc6bfhgoexo6x/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/sqlite-3.8.5-l2z4rhpzztvkshzqv7ntc6bfhgoexo6x/man"

@@ -1,0 +1,21 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 19:09:35.745888
+##
+## netlib-lapack@3.6.1%gcc@4.9.3~debug~external-blas+lapacke+shared arch=linux-rhel6-x86_64 /v6oiwic
+##
+module-whatis "netlib-lapack @3.6.1"
+
+proc ModulesHelp { } {
+puts stderr "LAPACK version 3.X is a comprehensive FORTRAN library that does linear"
+puts stderr "algebra operations including matrix inversions, least squared solutions"
+puts stderr "to linear sets of equations, eigenvector analysis, singular value"
+puts stderr "decomposition, etc. It is a very comprehensive and reputable package"
+puts stderr "that has found extensive use in the scientific community."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/netlib-lapack-3.6.1-v6oiwicfe7jxgxlvmbxlnobyb52c5bww/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/netlib-lapack-3.6.1-v6oiwicfe7jxgxlvmbxlnobyb52c5bww/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/netlib-lapack-3.6.1-v6oiwicfe7jxgxlvmbxlnobyb52c5bww/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/netlib-lapack-3.6.1-v6oiwicfe7jxgxlvmbxlnobyb52c5bww/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/netlib-lapack-3.6.1-v6oiwicfe7jxgxlvmbxlnobyb52c5bww/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/netlib-lapack-3.6.1-v6oiwicfe7jxgxlvmbxlnobyb52c5bww/man"

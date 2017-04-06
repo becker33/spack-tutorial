@@ -1,0 +1,17 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 19:09:03.685349
+##
+## libtool@2.4.6%gcc@4.9.3 arch=linux-rhel6-x86_64 /sqseh3r
+##
+module-whatis "libtool @2.4.6"
+
+proc ModulesHelp { } {
+puts stderr "libtool -- library building part of autotools."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/libtool-2.4.6-sqseh3rofevqjbrm3rbi6affqaebbhhw/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/libtool-2.4.6-sqseh3rofevqjbrm3rbi6affqaebbhhw/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/libtool-2.4.6-sqseh3rofevqjbrm3rbi6affqaebbhhw/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/libtool-2.4.6-sqseh3rofevqjbrm3rbi6affqaebbhhw/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/libtool-2.4.6-sqseh3rofevqjbrm3rbi6affqaebbhhw/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/libtool-2.4.6-sqseh3rofevqjbrm3rbi6affqaebbhhw/man"

@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 19:09:09.674092
+##
+## mpich@3.2%gcc@6.1.0+hydra+pmi+romio~verbs arch=linux-rhel7-x86_64 /7nuwk72
+##
+module-whatis "mpich @3.2"
+
+proc ModulesHelp { } {
+puts stderr "MPICH is a high performance and widely portable implementation of the"
+puts stderr "Message Passing Interface (MPI) standard."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/mpich-3.2-7nuwk726bah3xqaanuzoqhwdzqekrdhn/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/mpich-3.2-7nuwk726bah3xqaanuzoqhwdzqekrdhn/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/mpich-3.2-7nuwk726bah3xqaanuzoqhwdzqekrdhn/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/mpich-3.2-7nuwk726bah3xqaanuzoqhwdzqekrdhn/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/mpich-3.2-7nuwk726bah3xqaanuzoqhwdzqekrdhn/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/mpich-3.2-7nuwk726bah3xqaanuzoqhwdzqekrdhn/man"

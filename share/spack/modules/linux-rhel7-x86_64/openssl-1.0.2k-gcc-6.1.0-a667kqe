@@ -1,0 +1,20 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:51:12.771775
+##
+## openssl@1.0.2k%gcc@6.1.0 arch=linux-rhel7-x86_64 /a667kqe
+##
+module-whatis "openssl @1.0.2k"
+
+proc ModulesHelp { } {
+puts stderr "OpenSSL is an open source project that provides a robust, commercial-"
+puts stderr "grade, and full-featured toolkit for the Transport Layer Security (TLS)"
+puts stderr "and Secure Sockets Layer (SSL) protocols. It is also a general-purpose"
+puts stderr "cryptography library."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/openssl-1.0.2k-a667kqeljuc3kyt3624y6us7fbetsaev/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/openssl-1.0.2k-a667kqeljuc3kyt3624y6us7fbetsaev/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/openssl-1.0.2k-a667kqeljuc3kyt3624y6us7fbetsaev/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/openssl-1.0.2k-a667kqeljuc3kyt3624y6us7fbetsaev/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/openssl-1.0.2k-a667kqeljuc3kyt3624y6us7fbetsaev/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/openssl-1.0.2k-a667kqeljuc3kyt3624y6us7fbetsaev/man"

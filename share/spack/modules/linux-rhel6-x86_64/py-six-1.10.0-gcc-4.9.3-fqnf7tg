@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:51:10.993067
+##
+## py-six@1.10.0%gcc@4.9.3 arch=linux-rhel6-x86_64 /fqnf7tg
+##
+module-whatis "py-six @1.10.0"
+
+proc ModulesHelp { } {
+puts stderr "Python 2 and 3 compatibility utilities."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-six-1.10.0-fqnf7tgxtwvfqj6huopb22tierabug42/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-six-1.10.0-fqnf7tgxtwvfqj6huopb22tierabug42/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-six-1.10.0-fqnf7tgxtwvfqj6huopb22tierabug42/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-six-1.10.0-fqnf7tgxtwvfqj6huopb22tierabug42/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-six-1.10.0-fqnf7tgxtwvfqj6huopb22tierabug42/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-six-1.10.0-fqnf7tgxtwvfqj6huopb22tierabug42/man"
+prepend-path PYTHONPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-six-1.10.0-fqnf7tgxtwvfqj6huopb22tierabug42/lib/python2.7/site-packages"

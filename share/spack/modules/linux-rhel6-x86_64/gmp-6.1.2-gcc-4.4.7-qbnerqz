@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:28:37.756054
+##
+## gmp@6.1.2%gcc@4.4.7 arch=linux-rhel6-x86_64 /qbnerqz
+##
+module-whatis "gmp @6.1.2"
+
+proc ModulesHelp { } {
+puts stderr "GMP is a free library for arbitrary precision arithmetic, operating on"
+puts stderr "signed integers, rational numbers, and floating-point numbers."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gmp-6.1.2-qbnerqzrxquvqznvsx6dpj6nwzc5q5mc/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gmp-6.1.2-qbnerqzrxquvqznvsx6dpj6nwzc5q5mc/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gmp-6.1.2-qbnerqzrxquvqznvsx6dpj6nwzc5q5mc/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gmp-6.1.2-qbnerqzrxquvqznvsx6dpj6nwzc5q5mc/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gmp-6.1.2-qbnerqzrxquvqznvsx6dpj6nwzc5q5mc/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/gmp-6.1.2-qbnerqzrxquvqznvsx6dpj6nwzc5q5mc/man"

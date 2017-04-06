@@ -1,0 +1,24 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:20:37.820981
+##
+## libdwarf@20160507%gcc@4.8.5 arch=linux-rhel7-x86_64 /47kcpeh
+##
+module-whatis "libdwarf @20160507"
+
+proc ModulesHelp { } {
+puts stderr "The DWARF Debugging Information Format is of interest to programmers"
+puts stderr "working on compilers and debuggers (and any one interested in reading or"
+puts stderr "writing DWARF information). It was developed by a committee (known as"
+puts stderr "the PLSIG at the time) starting around 1991. Starting around 1991 SGI"
+puts stderr "developed the libdwarf and dwarfdump tools for internal use and as part"
+puts stderr "of SGI IRIX developer tools. Since that time dwarfdump and libdwarf have"
+puts stderr "been shipped (as an executable and archive respectively, not source)"
+puts stderr "with every release of the SGI MIPS/IRIX C compiler."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/libdwarf-20160507-47kcpehg6ldi5jwsww7t6ebw74j3jn3u/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/libdwarf-20160507-47kcpehg6ldi5jwsww7t6ebw74j3jn3u/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/libdwarf-20160507-47kcpehg6ldi5jwsww7t6ebw74j3jn3u/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/libdwarf-20160507-47kcpehg6ldi5jwsww7t6ebw74j3jn3u/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/libdwarf-20160507-47kcpehg6ldi5jwsww7t6ebw74j3jn3u/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/libdwarf-20160507-47kcpehg6ldi5jwsww7t6ebw74j3jn3u/man"

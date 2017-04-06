@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:28:27.975799
+##
+## mpfr@3.1.5%gcc@4.8.5 arch=linux-rhel7-x86_64 /fgkq2ik
+##
+module-whatis "mpfr @3.1.5"
+
+proc ModulesHelp { } {
+puts stderr "The MPFR library is a C library for multiple-precision floating-point"
+puts stderr "computations with correct rounding."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/mpfr-3.1.5-fgkq2iksdz2yoy7a757rtyytoyr3ujrb/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/mpfr-3.1.5-fgkq2iksdz2yoy7a757rtyytoyr3ujrb/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/mpfr-3.1.5-fgkq2iksdz2yoy7a757rtyytoyr3ujrb/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/mpfr-3.1.5-fgkq2iksdz2yoy7a757rtyytoyr3ujrb/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/mpfr-3.1.5-fgkq2iksdz2yoy7a757rtyytoyr3ujrb/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/mpfr-3.1.5-fgkq2iksdz2yoy7a757rtyytoyr3ujrb/man"

@@ -1,0 +1,23 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 19:07:41.775928
+##
+## openmpi@2.1.0%gcc@6.1.0~java~mxm~pmi~psm~psm2~slurm~sqlite3~thread_multiple~tm+verbs+vt arch=linux-rhel7-x86_64 /iaoqy4t
+##
+module-whatis "openmpi @2.1.0"
+
+proc ModulesHelp { } {
+puts stderr "The Open MPI Project is an open source Message Passing Interface"
+puts stderr "implementation that is developed and maintained by a consortium of"
+puts stderr "academic, research, and industry partners. Open MPI is therefore able to"
+puts stderr "combine the expertise, technologies, and resources from all across the"
+puts stderr "High Performance Computing community in order to build the best MPI"
+puts stderr "library available. Open MPI offers advantages for system and software"
+puts stderr "vendors, application developers and computer science researchers."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/openmpi-2.1.0-iaoqy4tyrra4dc6lzf3itxaplevfnuux/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/openmpi-2.1.0-iaoqy4tyrra4dc6lzf3itxaplevfnuux/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/openmpi-2.1.0-iaoqy4tyrra4dc6lzf3itxaplevfnuux/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/openmpi-2.1.0-iaoqy4tyrra4dc6lzf3itxaplevfnuux/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/openmpi-2.1.0-iaoqy4tyrra4dc6lzf3itxaplevfnuux/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/openmpi-2.1.0-iaoqy4tyrra4dc6lzf3itxaplevfnuux/man"

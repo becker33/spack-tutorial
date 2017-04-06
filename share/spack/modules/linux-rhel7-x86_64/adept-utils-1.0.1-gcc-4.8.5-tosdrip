@@ -1,0 +1,17 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:20:42.329030
+##
+## adept-utils@1.0.1%gcc@4.8.5 arch=linux-rhel7-x86_64 /tosdrip
+##
+module-whatis "adept-utils @1.0.1"
+
+proc ModulesHelp { } {
+puts stderr "Utility libraries for LLNL performance tools."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/adept-utils-1.0.1-tosdripy6ozmxm5bfw7nc3ca2lod7ifk/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/adept-utils-1.0.1-tosdripy6ozmxm5bfw7nc3ca2lod7ifk/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/adept-utils-1.0.1-tosdripy6ozmxm5bfw7nc3ca2lod7ifk/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/adept-utils-1.0.1-tosdripy6ozmxm5bfw7nc3ca2lod7ifk/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/adept-utils-1.0.1-tosdripy6ozmxm5bfw7nc3ca2lod7ifk/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/adept-utils-1.0.1-tosdripy6ozmxm5bfw7nc3ca2lod7ifk/man"

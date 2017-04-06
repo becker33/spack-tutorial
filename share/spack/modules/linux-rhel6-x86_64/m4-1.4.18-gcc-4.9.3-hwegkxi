@@ -1,0 +1,17 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 19:09:03.048401
+##
+## m4@1.4.18%gcc@4.9.3+sigsegv arch=linux-rhel6-x86_64 /hwegkxi
+##
+module-whatis "m4 @1.4.18"
+
+proc ModulesHelp { } {
+puts stderr "GNU M4 is an implementation of the traditional Unix macro processor."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/m4-1.4.18-hwegkxiufcw6f67bdenn2gostxcztban/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/m4-1.4.18-hwegkxiufcw6f67bdenn2gostxcztban/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/m4-1.4.18-hwegkxiufcw6f67bdenn2gostxcztban/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/m4-1.4.18-hwegkxiufcw6f67bdenn2gostxcztban/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/m4-1.4.18-hwegkxiufcw6f67bdenn2gostxcztban/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/m4-1.4.18-hwegkxiufcw6f67bdenn2gostxcztban/man"

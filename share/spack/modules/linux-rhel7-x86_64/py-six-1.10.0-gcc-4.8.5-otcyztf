@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:49:02.989959
+##
+## py-six@1.10.0%gcc@4.8.5 arch=linux-rhel7-x86_64 /otcyztf
+##
+module-whatis "py-six @1.10.0"
+
+proc ModulesHelp { } {
+puts stderr "Python 2 and 3 compatibility utilities."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-six-1.10.0-otcyztfbatcvfkgabnsdlic5vdit3awv/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-six-1.10.0-otcyztfbatcvfkgabnsdlic5vdit3awv/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-six-1.10.0-otcyztfbatcvfkgabnsdlic5vdit3awv/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-six-1.10.0-otcyztfbatcvfkgabnsdlic5vdit3awv/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-six-1.10.0-otcyztfbatcvfkgabnsdlic5vdit3awv/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-six-1.10.0-otcyztfbatcvfkgabnsdlic5vdit3awv/man"
+prepend-path PYTHONPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/py-six-1.10.0-otcyztfbatcvfkgabnsdlic5vdit3awv/lib/python2.7/site-packages"

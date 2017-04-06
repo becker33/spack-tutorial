@@ -1,0 +1,17 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:21:29.547017
+##
+## adept-utils@1.0.1%gcc@4.4.7 arch=linux-rhel6-x86_64 /slhvq4a
+##
+module-whatis "adept-utils @1.0.1"
+
+proc ModulesHelp { } {
+puts stderr "Utility libraries for LLNL performance tools."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/adept-utils-1.0.1-slhvq4ah2a6bmas7qg23uy43efle7bzr/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/adept-utils-1.0.1-slhvq4ah2a6bmas7qg23uy43efle7bzr/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/adept-utils-1.0.1-slhvq4ah2a6bmas7qg23uy43efle7bzr/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/adept-utils-1.0.1-slhvq4ah2a6bmas7qg23uy43efle7bzr/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/adept-utils-1.0.1-slhvq4ah2a6bmas7qg23uy43efle7bzr/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/adept-utils-1.0.1-slhvq4ah2a6bmas7qg23uy43efle7bzr/man"

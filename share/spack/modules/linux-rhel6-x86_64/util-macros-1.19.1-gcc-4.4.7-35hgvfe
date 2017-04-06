@@ -1,0 +1,19 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:21:11.176047
+##
+## util-macros@1.19.1%gcc@4.4.7 arch=linux-rhel6-x86_64 /35hgvfe
+##
+module-whatis "util-macros @1.19.1"
+
+proc ModulesHelp { } {
+puts stderr "This is a set of autoconf macros used by the configure.ac scripts in"
+puts stderr "other Xorg modular packages, and is needed to generate new versions of"
+puts stderr "their configure scripts with autoconf."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/util-macros-1.19.1-35hgvfeckiox5czlppwpgzizr55oe46k/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/util-macros-1.19.1-35hgvfeckiox5czlppwpgzizr55oe46k/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/util-macros-1.19.1-35hgvfeckiox5czlppwpgzizr55oe46k/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/util-macros-1.19.1-35hgvfeckiox5czlppwpgzizr55oe46k/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/util-macros-1.19.1-35hgvfeckiox5czlppwpgzizr55oe46k/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/util-macros-1.19.1-35hgvfeckiox5czlppwpgzizr55oe46k/man"

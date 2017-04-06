@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 19:09:47.768942
+##
+## mpich@3.2%gcc@4.9.3+hydra+pmi+romio~verbs arch=linux-rhel6-x86_64 /fgoqnw3
+##
+module-whatis "mpich @3.2"
+
+proc ModulesHelp { } {
+puts stderr "MPICH is a high performance and widely portable implementation of the"
+puts stderr "Message Passing Interface (MPI) standard."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/mpich-3.2-fgoqnw3taunnwuhrfmhbf7afbxhavqpf/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/mpich-3.2-fgoqnw3taunnwuhrfmhbf7afbxhavqpf/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/mpich-3.2-fgoqnw3taunnwuhrfmhbf7afbxhavqpf/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/mpich-3.2-fgoqnw3taunnwuhrfmhbf7afbxhavqpf/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/mpich-3.2-fgoqnw3taunnwuhrfmhbf7afbxhavqpf/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/mpich-3.2-fgoqnw3taunnwuhrfmhbf7afbxhavqpf/man"

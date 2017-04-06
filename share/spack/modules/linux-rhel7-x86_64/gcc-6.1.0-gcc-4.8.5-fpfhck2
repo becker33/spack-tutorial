@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:28:38.855046
+##
+## gcc@6.1.0%gcc@4.8.5+binutils~piclibs arch=linux-rhel7-x86_64 /fpfhck2
+##
+module-whatis "gcc @6.1.0"
+
+proc ModulesHelp { } {
+puts stderr "The GNU Compiler Collection includes front ends for C, C++, Objective-C,"
+puts stderr "Fortran, and Java."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.1.0-fpfhck23eweiu3to76kuarm72tubrqjc/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.1.0-fpfhck23eweiu3to76kuarm72tubrqjc/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.1.0-fpfhck23eweiu3to76kuarm72tubrqjc/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.1.0-fpfhck23eweiu3to76kuarm72tubrqjc/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.1.0-fpfhck23eweiu3to76kuarm72tubrqjc/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/gcc-6.1.0-fpfhck23eweiu3to76kuarm72tubrqjc/man"

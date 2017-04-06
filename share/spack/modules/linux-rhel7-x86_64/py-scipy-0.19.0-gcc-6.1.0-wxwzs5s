@@ -1,0 +1,20 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:51:34.460916
+##
+## py-scipy@0.19.0%gcc@6.1.0 arch=linux-rhel7-x86_64 /wxwzs5s
+##
+module-whatis "py-scipy @0.19.0"
+
+proc ModulesHelp { } {
+puts stderr "SciPy (pronounced "Sigh Pie") is a Scientific Library for Python. It"
+puts stderr "provides many user-friendly and efficient numerical routines such as"
+puts stderr "routines for numerical integration and optimization."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/py-scipy-0.19.0-wxwzs5snbltl5ynbhjxr5k6kv2irb6zl/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/py-scipy-0.19.0-wxwzs5snbltl5ynbhjxr5k6kv2irb6zl/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/py-scipy-0.19.0-wxwzs5snbltl5ynbhjxr5k6kv2irb6zl/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/py-scipy-0.19.0-wxwzs5snbltl5ynbhjxr5k6kv2irb6zl/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/py-scipy-0.19.0-wxwzs5snbltl5ynbhjxr5k6kv2irb6zl/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/py-scipy-0.19.0-wxwzs5snbltl5ynbhjxr5k6kv2irb6zl/man"
+prepend-path PYTHONPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/py-scipy-0.19.0-wxwzs5snbltl5ynbhjxr5k6kv2irb6zl/lib/python2.7/site-packages"

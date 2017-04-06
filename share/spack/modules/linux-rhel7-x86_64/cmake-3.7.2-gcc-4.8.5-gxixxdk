@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:20:34.831627
+##
+## cmake@3.7.2%gcc@4.8.5~doc+ncurses+openssl+ownlibs~qt arch=linux-rhel7-x86_64 /gxixxdk
+##
+module-whatis "cmake @3.7.2"
+
+proc ModulesHelp { } {
+puts stderr "A cross-platform, open-source build system. CMake is a family of tools"
+puts stderr "designed to build, test and package software."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/cmake-3.7.2-gxixxdk64o3jsfci6ylmbhrkbuaf3iwa/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/cmake-3.7.2-gxixxdk64o3jsfci6ylmbhrkbuaf3iwa/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/cmake-3.7.2-gxixxdk64o3jsfci6ylmbhrkbuaf3iwa/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/cmake-3.7.2-gxixxdk64o3jsfci6ylmbhrkbuaf3iwa/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/cmake-3.7.2-gxixxdk64o3jsfci6ylmbhrkbuaf3iwa/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/cmake-3.7.2-gxixxdk64o3jsfci6ylmbhrkbuaf3iwa/man"

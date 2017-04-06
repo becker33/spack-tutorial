@@ -1,0 +1,17 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:51:24.886093
+##
+## openblas@0.2.19%gcc@4.9.3~openmp+pic+shared arch=linux-rhel6-x86_64 /mjzp222
+##
+module-whatis "openblas @0.2.19"
+
+proc ModulesHelp { } {
+puts stderr "OpenBLAS: An optimized BLAS library"
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/openblas-0.2.19-mjzp222db3otl2qnh6ptm6z2u5gol6jl/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/openblas-0.2.19-mjzp222db3otl2qnh6ptm6z2u5gol6jl/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/openblas-0.2.19-mjzp222db3otl2qnh6ptm6z2u5gol6jl/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/openblas-0.2.19-mjzp222db3otl2qnh6ptm6z2u5gol6jl/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/openblas-0.2.19-mjzp222db3otl2qnh6ptm6z2u5gol6jl/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/openblas-0.2.19-mjzp222db3otl2qnh6ptm6z2u5gol6jl/man"

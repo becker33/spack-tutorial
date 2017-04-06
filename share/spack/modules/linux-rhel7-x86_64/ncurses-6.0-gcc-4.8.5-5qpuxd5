@@ -1,0 +1,21 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:20:32.013514
+##
+## ncurses@6.0%gcc@4.8.5~symlinks arch=linux-rhel7-x86_64 /5qpuxd5
+##
+module-whatis "ncurses @6.0"
+
+proc ModulesHelp { } {
+puts stderr "The ncurses (new curses) library is a free software emulation of curses"
+puts stderr "in System V Release 4.0, and more. It uses terminfo format, supports"
+puts stderr "pads and color and multiple highlights and forms characters and"
+puts stderr "function-key mapping, and has all the other SYSV-curses enhancements"
+puts stderr "over BSD curses."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/ncurses-6.0-5qpuxd53h5j27xkcp7rhlqzvw64g7jcq/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/ncurses-6.0-5qpuxd53h5j27xkcp7rhlqzvw64g7jcq/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/ncurses-6.0-5qpuxd53h5j27xkcp7rhlqzvw64g7jcq/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/ncurses-6.0-5qpuxd53h5j27xkcp7rhlqzvw64g7jcq/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/ncurses-6.0-5qpuxd53h5j27xkcp7rhlqzvw64g7jcq/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/ncurses-6.0-5qpuxd53h5j27xkcp7rhlqzvw64g7jcq/man"

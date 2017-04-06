@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:20:39.657717
+##
+## dyninst@9.3.0%gcc@4.8.5~stat_dysect arch=linux-rhel7-x86_64 /evkw2ho
+##
+module-whatis "dyninst @9.3.0"
+
+proc ModulesHelp { } {
+puts stderr "API for dynamic binary instrumentation. Modify programs while they are"
+puts stderr "executing without recompiling, re-linking, or re-executing."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/dyninst-9.3.0-evkw2hogbe2izqzb3txrz35gmhx4h6vu/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/dyninst-9.3.0-evkw2hogbe2izqzb3txrz35gmhx4h6vu/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/dyninst-9.3.0-evkw2hogbe2izqzb3txrz35gmhx4h6vu/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/dyninst-9.3.0-evkw2hogbe2izqzb3txrz35gmhx4h6vu/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/dyninst-9.3.0-evkw2hogbe2izqzb3txrz35gmhx4h6vu/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-4.8.5/dyninst-9.3.0-evkw2hogbe2izqzb3txrz35gmhx4h6vu/man"

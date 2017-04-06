@@ -1,0 +1,21 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 17:21:24.205337
+##
+## boost@1.63.0%gcc@4.4.7+atomic+chrono+date_time~debug+filesystem~graph~icu+iostreams+locale+log+math~mpi+multithreaded+program_options~python+random+regex+serialization+shared+signals~singlethreaded+system~taggedlayout+test+thread+timer+wave arch=linux-rhel6-x86_64 /t4qaymz
+##
+module-whatis "boost @1.63.0"
+
+proc ModulesHelp { } {
+puts stderr "Boost provides free peer-reviewed portable C++ source libraries,"
+puts stderr "emphasizing libraries that work well with the C++ Standard Library."
+puts stderr "Boost libraries are intended to be widely useful, and usable across a"
+puts stderr "broad spectrum of applications. The Boost license encourages both"
+puts stderr "commercial and non-commercial use."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/boost-1.63.0-t4qaymzxzocv3pxas5vpmaxozlvwwrgg/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/boost-1.63.0-t4qaymzxzocv3pxas5vpmaxozlvwwrgg/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/boost-1.63.0-t4qaymzxzocv3pxas5vpmaxozlvwwrgg/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/boost-1.63.0-t4qaymzxzocv3pxas5vpmaxozlvwwrgg/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/boost-1.63.0-t4qaymzxzocv3pxas5vpmaxozlvwwrgg/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.4.7/boost-1.63.0-t4qaymzxzocv3pxas5vpmaxozlvwwrgg/man"

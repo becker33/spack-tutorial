@@ -1,0 +1,19 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:51:13.878448
+##
+## py-appdirs@1.4.0%gcc@4.9.3 arch=linux-rhel6-x86_64 /6eo6qju
+##
+module-whatis "py-appdirs @1.4.0"
+
+proc ModulesHelp { } {
+puts stderr "A small Python module for determining appropriate platform-specific"
+puts stderr "dirs, e.g. a "user data dir"."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-appdirs-1.4.0-6eo6qjulrfkpit5nb6ejsjhbhufqzq2x/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-appdirs-1.4.0-6eo6qjulrfkpit5nb6ejsjhbhufqzq2x/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-appdirs-1.4.0-6eo6qjulrfkpit5nb6ejsjhbhufqzq2x/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-appdirs-1.4.0-6eo6qjulrfkpit5nb6ejsjhbhufqzq2x/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-appdirs-1.4.0-6eo6qjulrfkpit5nb6ejsjhbhufqzq2x/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-appdirs-1.4.0-6eo6qjulrfkpit5nb6ejsjhbhufqzq2x/man"
+prepend-path PYTHONPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-appdirs-1.4.0-6eo6qjulrfkpit5nb6ejsjhbhufqzq2x/lib/python2.7/site-packages"

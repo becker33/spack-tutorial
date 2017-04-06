@@ -1,0 +1,16 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:50:54.879209
+##
+## pkg-config@0.29.2%gcc@6.1.0+internal_glib arch=linux-rhel7-x86_64 /sy7npop
+##
+module-whatis "pkg-config @0.29.2"
+
+proc ModulesHelp { } {
+puts stderr "pkg-config is a helper tool used when compiling applications and"
+puts stderr "libraries"
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/pkg-config-0.29.2-sy7npop2rbyyi5a7pkh6jmzw7qr5feds/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/pkg-config-0.29.2-sy7npop2rbyyi5a7pkh6jmzw7qr5feds/"
+prepend-path ACLOCAL_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/pkg-config-0.29.2-sy7npop2rbyyi5a7pkh6jmzw7qr5feds/share/aclocal"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/pkg-config-0.29.2-sy7npop2rbyyi5a7pkh6jmzw7qr5feds/share/man"

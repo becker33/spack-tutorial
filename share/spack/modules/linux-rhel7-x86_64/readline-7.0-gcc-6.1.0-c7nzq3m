@@ -1,0 +1,22 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:51:13.966893
+##
+## readline@7.0%gcc@6.1.0 arch=linux-rhel7-x86_64 /c7nzq3m
+##
+module-whatis "readline @7.0"
+
+proc ModulesHelp { } {
+puts stderr "The GNU Readline library provides a set of functions for use by"
+puts stderr "applications that allow users to edit command lines as they are typed"
+puts stderr "in. Both Emacs and vi editing modes are available. The Readline library"
+puts stderr "includes additional functions to maintain a list of previously-entered"
+puts stderr "command lines, to recall and perhaps reedit those lines, and perform"
+puts stderr "csh-like history expansion on previous commands."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/readline-7.0-c7nzq3mpztdcvdxcsnmufufbxz6aqj3x/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/readline-7.0-c7nzq3mpztdcvdxcsnmufufbxz6aqj3x/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/readline-7.0-c7nzq3mpztdcvdxcsnmufufbxz6aqj3x/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/readline-7.0-c7nzq3mpztdcvdxcsnmufufbxz6aqj3x/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/readline-7.0-c7nzq3mpztdcvdxcsnmufufbxz6aqj3x/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel7-x86_64/gcc-6.1.0/readline-7.0-c7nzq3mpztdcvdxcsnmufufbxz6aqj3x/man"

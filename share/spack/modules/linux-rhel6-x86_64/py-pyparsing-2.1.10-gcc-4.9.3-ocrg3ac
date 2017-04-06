@@ -1,0 +1,18 @@
+#%Module1.0
+## Module file created by spack (https://github.com/LLNL/spack) on 2017-04-05 18:51:17.063690
+##
+## py-pyparsing@2.1.10%gcc@4.9.3 arch=linux-rhel6-x86_64 /ocrg3ac
+##
+module-whatis "py-pyparsing @2.1.10"
+
+proc ModulesHelp { } {
+puts stderr "A Python Parsing Module."
+}
+
+prepend-path PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-pyparsing-2.1.10-ocrg3acoryytnjdhyuneog2x4a3st67j/bin"
+prepend-path CMAKE_PREFIX_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-pyparsing-2.1.10-ocrg3acoryytnjdhyuneog2x4a3st67j/"
+prepend-path LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-pyparsing-2.1.10-ocrg3acoryytnjdhyuneog2x4a3st67j/lib"
+prepend-path LD_LIBRARY_PATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-pyparsing-2.1.10-ocrg3acoryytnjdhyuneog2x4a3st67j/lib"
+prepend-path CPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-pyparsing-2.1.10-ocrg3acoryytnjdhyuneog2x4a3st67j/include"
+prepend-path MANPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-pyparsing-2.1.10-ocrg3acoryytnjdhyuneog2x4a3st67j/man"
+prepend-path PYTHONPATH "/g/g0/becker33/lwspack/spack/opt/spack/linux-rhel6-x86_64/gcc-4.9.3/py-pyparsing-2.1.10-ocrg3acoryytnjdhyuneog2x4a3st67j/lib/python2.7/site-packages"
